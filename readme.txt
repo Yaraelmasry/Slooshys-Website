@@ -7,7 +7,7 @@ Team Name: Slooshys
 Team Member Names:
 Qaswar Al-Hindawi - 300193051
 Marouane Bouzzit - 300206399
-<<<<<<< HEAD
+Adnane Bouchama - 300177651
 Yara Elmasry - 300157512
 
 =======
