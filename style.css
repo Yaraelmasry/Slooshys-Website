@@ -1,1 +1,48 @@
-body {}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color:#5D4954;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+.logo {
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navig {
+    display: flex;
+    background-color: #5D4954;
+    justify-content: space-around;
+    width: 30%;
+}
+.navig a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 16px 20px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    transition: all 0.2s ease;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navig li {
+    list-style: none;
+}
+
+.navig a:hover {
+    background-color: silver;
+}
+
+.navig a:focus {
+    background-color: black;
+}
