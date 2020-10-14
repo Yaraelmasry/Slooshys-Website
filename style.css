@@ -46,13 +46,16 @@ nav {
 }
 main {
     background-color: ghostwhite;
-    height: 80%;
 }
 h2 {
     padding: 100px 0 0 100px;
     width: 50%;
 }
 p {
-    padding: 50px 0 0 90px;
-    
+    padding-left: 90px;  
+    padding-top: 100px
+}
+.main-image {
+    float: right;
+    background-color: ghostwhite;
 }
