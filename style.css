@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 nav {
-    background-color:#5D4954;
+    background-color: purple;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,18 +20,16 @@ nav {
 
 .navig {
     display: flex;
-    background-color: #5D4954;
+    background-color: purple;
     justify-content: space-around;
     width: 30%;
 }
 .navig a {
     color: white;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-size: 16px;
-    padding: 16px 20px;
-    border-right: 1px solid grey;
-    border-left: 1px solid grey;
+    padding: 15px 20px;
     transition: all 0.2s ease;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -45,4 +43,16 @@ nav {
 
 .navig a:focus {
     background-color: black;
+}
+main {
+    background-color: ghostwhite;
+    height: 80%;
+}
+h2 {
+    padding: 100px 0 0 100px;
+    width: 50%;
+}
+p {
+    padding: 50px 0 0 90px;
+    
 }
