@@ -41,7 +41,7 @@ nav {
     background-color: silver;
 }
 
-.navig a:focus {
+.active {
     background-color: black;
 }
 main {
