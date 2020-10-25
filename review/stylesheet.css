@@ -31,13 +31,13 @@ body{
 }
 
 .review .Sloosher{
-  background: rgb(252, 253, 196);
+  background: rgb(228, 150, 243);
   margin: 20px;
   margin-bottom: 50px;
   width: 350px;
   padding: 20px;
   line-height: 20px;
-  color: #8e8b8b;  
+  color: #000000;  
   position: relative;
 }
 
@@ -60,7 +60,7 @@ body{
   left: 35%;
   width: 100px;
   height: 100px; 
-  background: rgb(248, 215, 153);
+  
  
 }
 .review .Sloosher .review_img img{
