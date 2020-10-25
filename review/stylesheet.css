@@ -68,3 +68,10 @@ body{
   height: 120px;
   padding: 2px;
 }
+.Sloosher:hover {
+  -moz-transform: translate(-2px, -2px);
+  -ms-transform: translate(-2px, -2px);
+  -o-transform: translate(-2px, -2px);
+  -webkit-transform: translate(-2px, -2px);
+  transform: translate(-5px, -5px)
+}
