@@ -227,17 +227,14 @@ main {
     display: flex;
     align-items: center;
 }
-.main-image2 {
-    position: absolute;
-    z-index: 0;
-}
+
 .title2 {
-    justify-content: end;
+    justify-content: center;
     width: 40%;
     align-content: center;
     z-index: 1;
     padding: 40px;
-    margin: 150px 0 0 700px;
+    margin: 150px 0 0 200px;
     animation: title2-entrance 1.5s;
 }
 .text2 h1 {
@@ -311,4 +308,37 @@ button::before, button::after {
     border-left-color: #bccc5f;
     -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
     transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+footer {
+    position: absolute;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    transform: translateY(100vh);
+    background-color: black;
+}
+.desc {
+    color: white;
+    justify-content: center;
+    flex: 1;
+    margin: 150px 70px 0 70px;
+    font-size: 20px;
+    width: 10%;
+}
+.desc h3 {
+    text-align: center;
+}
+.info {
+    flex: 2;
+}
+.info ul {
+    list-style: none;
+    text-align: center;
+    margin: 150px 0 0 200px;
+}
+.desc-link {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 200%;
 }
