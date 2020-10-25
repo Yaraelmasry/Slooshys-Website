@@ -1,0 +1,328 @@
+body{
+    margin:0;
+    padding:0;
+    background:white;
+    font-family:sans-serif;
+}
+.container{
+    width:960px;
+    margin:70px auto 0;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.container .box
+{
+    position:relative;
+    width:300px;
+    height:300px;
+    background:#FFEBCD;
+    margin:10px;
+    box-sizing:border-box;
+    display:inline-block;
+}
+.container .box .Yara
+{
+    position: relative;
+    overflow:hidden;
+}
+.container .box .Yara img
+{
+    max-width:100%;
+    transition: transform 2s;
+}
+.container .box:hover .Yara img
+{
+    transform:scale(1.2);
+}
+.container .box .details
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background:rgba(44, 40, 40, 0.8);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+.container .box:hover .details
+{
+    transform: scaleY(1);
+}
+.container .box .details .content
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}
+.container .box .details .content h2
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:#FFEBCD;
+}
+.container .box .details .content p
+{
+    margin:10px 0 0;
+    padding:0;
+}
+.container .box .Qaswar
+{
+    position: relative;
+    overflow:hidden;
+}
+.container .box .Qaswar img
+{
+    max-width:100%;
+    transition: transform 2s;
+}
+.container .box:hover .Qaswar img
+{
+    transform:scale(1.2);
+}
+.container .box .details1
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background:rgba(44, 40, 40, 0.8);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+.container .box:hover .details1
+{
+    transform: scaleY(1);
+}
+.container .box .details1 .content1
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}
+.container .box .details1 .content1 h2
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:#FFEBCD;
+}
+.container .box .details1 .content1 p
+{
+    margin:10px 0 0;
+    padding:0;
+}
+.container .box .Marwan
+{
+    position: relative;
+    overflow:hidden;
+}
+.container .box .Marwan img
+{
+    max-width:100%;
+    transition: transform 2s;
+}
+.container .box:hover .Marwan img
+{
+    transform:scale(1.2);
+}
+.container .box .details2
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background:rgba(44, 40, 40, 0.8);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+.container .box:hover .details2
+{
+    transform: scaleY(1);
+}
+.container .box .details2 .content2
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}
+.container .box .details2 .content2 h2
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:#FFEBCD;
+}
+.container .box .details2 .content2 p
+{
+    margin:10px 0 0;
+    padding:0;
+}
+
+.container .box .Ayman
+{
+    position: relative;
+    overflow:hidden;
+}
+.container .box .Ayman img
+{
+    max-width:100%;
+    transition: transform 2s;
+}
+.container .box:hover .Ayman img
+{
+    transform:scale(1.2);
+}
+.container .box .details3
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background:rgba(44, 40, 40, 0.8);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+.container .box:hover .details3
+{
+    transform: scaleY(1);
+}
+.container .box .details3 .content3
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}
+.container .box .details3 .content3 h2
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:#FFEBCD;
+}
+.container .box .details3 .content3 p
+{
+    margin:10px 0 0;
+    padding:0;
+}
+.container .box .Hiba
+{
+    position: relative;
+    overflow:hidden;
+}
+.container .box .Hiba img
+{
+    max-width:100%;
+    transition: transform 2s;
+}
+.container .box:hover .Hiba img
+{
+    transform:scale(1.2);
+}
+.container .box .details4
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background:rgba(44, 40, 40, 0.8);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+.container .box:hover .details4
+{
+    transform: scaleY(1);
+}
+.container .box .details4 .content4
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}
+.container .box .details4 .content4 h2
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:#FFEBCD;
+}
+.container .box .details4 .content4 p
+{
+    margin:10px 0 0;
+    padding:0;
+}
+.container .box .Adnane
+{
+    position: relative;
+    overflow:hidden;
+}
+.container .box .Adnane img
+{
+    max-width:100%;
+    transition: transform 2s;
+}
+.container .box:hover .Adnane img
+{
+    transform:scale(1.2);
+}
+.container .box .details5
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    bottom:10px;
+    right:10px;
+    background:rgba(44, 40, 40, 0.8);
+    transform: scaleY(0);
+    transition:transform .5s;
+}
+.container .box:hover .details5
+{
+    transform: scaleY(1);
+}
+.container .box .details5 .content5
+{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:15px;
+    color:#fff;
+}
+.container .box .details5 .content5 h2
+{
+    margin:0;
+    padding:0;
+    font-size:20px;
+    color:#FFEBCD;
+}
+.container .box .details5 .content5 p
+{
+    margin:10px 0 0;
+    padding:0;
+}
+
+
+

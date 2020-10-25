@@ -1,0 +1,70 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.review{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.review .Sloosher{
+  background: rgb(228, 150, 243);
+  margin: 20px;
+  margin-bottom: 50px;
+  width: 350px;
+  padding: 20px;
+  line-height: 20px;
+  color: #000000;  
+  position: relative;
+}
+
+.review .Sloosher h3{
+  color: #000000;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.review .Sloosher p.role{
+  color: rgb(172, 0, 240);
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.review .Sloosher .review_img{
+  position: absolute;
+  top: -60px;
+  left: 32%;
+  width: 100px;
+  height: 100px; 
+  
+ 
+}
+.review .Sloosher .review_img img{
+  width: 120px;
+  height: 120px;
+  padding: 2px;
+}
