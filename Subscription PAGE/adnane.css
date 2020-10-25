@@ -1,3 +1,108 @@
+/* beginning of nav*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  z-index: 2;
+  transform: translateY(-317px);
+}
+.logo-container, .nav-links {
+  display: flex;
+}
+.logo {
+  font-weight: 600;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+.logo-container {
+  align-items: center;
+  margin-left: 5%;
+}
+nav {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-content: center;
+}
+.nav-links {
+  justify-content: flex-end;
+  list-style: none;
+  margin: 10px 30px 0 0;
+  flex: 5;
+  align-content: center;
+}
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15rem;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  margin-bottom: 10px;
+  transform: translateY(-10px);
+}
+.nav-link:hover {
+  color: rgb(201, 92, 201);
+}
+.nav-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(201, 92, 201);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover:after {
+  width: 100%; 
+  left: 0; 
+}
+.socials {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  width: 25px;
+  height: auto;
+  margin-top: 8px;
+  justify-content: space-around;
+}
+.social {
+  margin-top: 3px;
+  width: 25px;
+  height: auto;
+  transition: 0.4s all ease;
+}
+#twitter:hover {
+  content: url(../homepage/img/twitter_color.png);
+  width: 30px;
+  height: auto;
+}
+#facebook:hover {
+  content: url(../homepage/img/facebook_color.png);
+  width: 30px;
+  height: auto;
+}
+#linkedin:hover {
+  content: url(../homepage/img/linkedin_color.png);
+  width: 30px;
+  height: auto;
+}
+.logo-container img {
+  height: 3rem;
+}
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -12,7 +117,7 @@
     justify-content: center;
     align-items: center;
     font-family: var(--body-font-family);
-    margin: 0;
+    margin-top: 30px;
     background-color: #F8F9FB;
     min-width: 100vw;
     min-height: 100vh;

@@ -3,12 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body,html {
-    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
-    position: relative;
-}
-header {
+  }
+  header {
+    font-family:'Lato', sans-serif;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -17,33 +14,33 @@ header {
     height: 8vh;
     width: 100%;
     z-index: 2;
-}
-.logo-container, .nav-links {
+  }
+  .logo-container, .nav-links {
     display: flex;
-}
-.logo {
+  }
+  .logo {
     font-weight: 600;
     margin: 5px;
     letter-spacing: 1px;
-}
-.logo-container {
+  }
+  .logo-container {
     align-items: center;
     margin-left: 5%;
-}
-nav {
+  }
+  nav {
     display: flex;
     width: 80%;
     margin: auto;
     align-content: center;
-}
-.nav-links {
+  }
+  .nav-links {
     justify-content: flex-end;
     list-style: none;
     margin: 10px 30px 0 0;
     flex: 5;
     align-content: center;
-}
-.nav-link {
+  }
+  .nav-link {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
@@ -54,10 +51,10 @@ nav {
     margin-bottom: 10px;
     transform: translateY(-10px);
   }
-.nav-link:hover {
-    color: white;
-}
-.nav-link:after {
+  .nav-link:hover {
+    color: rgb(201, 92, 201);
+  }
+  .nav-link:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -65,15 +62,15 @@ nav {
     height: 2px;
     left: 50%;
     position: absolute;
-    background: white;
+    background: rgb(201, 92, 201);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-}
-.nav-link:hover:after {
+  }
+  .nav-link:hover:after {
     width: 100%; 
     left: 0; 
-}
-.socials {
+  }
+  .socials {
     flex: 1;
     list-style: none;
     display: flex;
@@ -81,34 +78,35 @@ nav {
     height: auto;
     margin-top: 8px;
     justify-content: space-around;
-}
-.social {
+  }
+  .social {
     margin-top: 3px;
     width: 25px;
     height: auto;
     transition: 0.4s all ease;
-}
-#twitter:hover {
-    content: url(img/twitter_color.png);
+  }
+  #twitter:hover {
+    content: url(../homepage/img/twitter_color.png);
     width: 30px;
     height: auto;
-}
-#facebook:hover {
-    content: url(img/facebook_color.png);
+  }
+  #facebook:hover {
+    content: url(../homepage/img/facebook_color.png);
     width: 30px;
     height: auto;
-}
-#linkedin:hover {
-    content: url(img/linkedin_color.png);
+  }
+  #linkedin:hover {
+    content: url(../homepage/img/linkedin_color.png);
     width: 30px;
     height: auto;
-}
-.logo-container img {
+  }
+  .logo-container img {
     height: 3rem;
-}
+  }
 /* ending of nav */
 main {
-    height: 100vh;  
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;  
 }
 .part1 {
     display: flex;
