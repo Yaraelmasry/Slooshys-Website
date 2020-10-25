@@ -1,0 +1,227 @@
+.title{
+    text-align: center;
+    color: black;
+    font-size: large;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    background-color: #e6e6e6;
+}
+.protein{
+    position: relative;
+    width: 750px;
+    height: 700px;
+    font-size: large;
+    line-height: 300%;
+    font-family: 'Cambo';
+    justify-content: center;
+
+}
+
+.sugarfree{
+    position: relative;
+    width: 740px;
+    height: 700px;
+    left:740px;
+    bottom: 25px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: large;
+    line-height: 300%;
+    padding-left: 10px;
+    font-family: 'Cambo';
+
+}
+.energymix{
+    position: relative;
+    width: 750px;
+    height: 700px;
+    bottom: 47px;
+    text-align: left;
+    font-size: large;
+    line-height: 300%;
+    font-family: 'Cambo';
+
+}
+.specialmix{
+    position: relative;
+    margin-left: 10px;
+    width: 740px;
+    height: 700px;
+    bottom: 71px;
+    left: 740px;
+    text-align: left;
+    font-size: large;
+    line-height: 300%;
+    padding-left: 10px;
+    font-family: 'Cambo';
+  
+}
+body{
+    
+}
+
+/* this is for Images */
+.proteinimg{
+    bottom: 2871px;
+    width: 750px;
+    height: 700px;
+    left: 750px;
+    background-image: url("protein.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.sugarimg{
+    position: relative;
+    width: 750px;
+    height: 700px;
+    bottom: 2871px;
+    background-image: url("Icelandic\ water.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.energyimg{
+    position: relative;
+    bottom: 2871px;
+    width: 750px;
+    height: 700px;
+    left: 750px;
+    background-image: url("sugarfree.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.specialimg {
+    position: relative;
+    bottom: 2871px;
+    width: 750px;
+    height: 700px;
+    background-image: url("slooch\ thing.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* this is for hovering */
+
+.textprot {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Aclonica';
+    font-size: 30px;
+  }
+  .overlayprot {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+.proteinimg:hover .overlayprot{
+    opacity: 1;
+}
+.textsug{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Aclonica';
+    font-size: 30px;
+}
+.overlaysug{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #d3e0f0;
+}
+.sugarimg:hover .overlaysug{
+    opacity: 1;
+}
+.texteng{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Aclonica';
+    font-size: 30px;
+}
+.overlayeng{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ebebeb;
+}
+.energyimg:hover .overlayeng{
+    opacity: 1;
+}
+.textspec{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Aclonica';
+    font-size: 30px;
+}
+.overlayspec{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e5f8ff;
+}
+.specialimg:hover .overlayspec{
+    opacity: 1;
+}
