@@ -12,6 +12,7 @@
     <meta name="viewport" content="width = device-width, initial-scale=1.0"> 
     <title> about the team </title>
 </head>
+<body></body>
     <header>
         <div class="logo-container">
         <a href="../homepage/index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
@@ -108,6 +109,7 @@
                     </div></div>
             </div>
         </body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </main>
     <footer>
         <section class = "desc">
@@ -122,16 +124,26 @@
             </ul>
         </section>
     </footer>
-                
-
-                    
-    
-    
+</body>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        // Java Script Code
+       
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>        
             
-
-
-    
-    
 
 </html>
 

@@ -145,6 +145,7 @@
           </button>
         </div>
       </section>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       <footer>
         <section class = "desc">
             <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, soluta?</h3>
@@ -158,6 +159,24 @@
             </ul>
         </section>
       </footer> 
+      <script>
+        var mybutton = document.getElementById("myBtn");
+        // Java Script Code
+       
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>        
       
         
 </body>

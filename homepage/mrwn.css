@@ -3,9 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  header {
-    font-family:'Lato', sans-serif;
+}
+body,html {
+    position: relative;
+}
+header {
+    font-family: 'lato',sans-serif;
     position: fixed;
     display: flex;
     justify-content: center;
@@ -14,33 +17,33 @@
     height: 8vh;
     width: 100%;
     z-index: 2;
-  }
-  .logo-container, .nav-links {
+}
+.logo-container, .nav-links {
     display: flex;
-  }
-  .logo {
+}
+.logo {
     font-weight: 600;
     margin: 5px;
     letter-spacing: 1px;
-  }
-  .logo-container {
+}
+.logo-container {
     align-items: center;
     margin-left: 5%;
-  }
-  nav {
+}
+nav {
     display: flex;
     width: 80%;
     margin: auto;
     align-content: center;
-  }
-  .nav-links {
+}
+.nav-links {
     justify-content: flex-end;
     list-style: none;
     margin: 10px 30px 0 0;
     flex: 5;
     align-content: center;
-  }
-  .nav-link {
+}
+.nav-link {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
@@ -51,10 +54,10 @@
     margin-bottom: 10px;
     transform: translateY(-10px);
   }
-  .nav-link:hover {
+.nav-link:hover {
     color: rgb(201, 92, 201);
-  }
-  .nav-link:after {
+}
+.nav-link:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -65,12 +68,12 @@
     background: rgb(201, 92, 201);
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-  }
-  .nav-link:hover:after {
+}
+.nav-link:hover:after {
     width: 100%; 
     left: 0; 
-  }
-  .socials {
+}
+.socials {
     flex: 1;
     list-style: none;
     display: flex;
@@ -78,35 +81,35 @@
     height: auto;
     margin-top: 8px;
     justify-content: space-around;
-  }
-  .social {
+}
+.social {
     margin-top: 3px;
     width: 25px;
     height: auto;
     transition: 0.4s all ease;
-  }
-  #twitter:hover {
-    content: url(../homepage/img/twitter_color.png);
+}
+#twitter:hover {
+    content: url(img/twitter_color.png);
     width: 30px;
     height: auto;
-  }
-  #facebook:hover {
-    content: url(../homepage/img/facebook_color.png);
+}
+#facebook:hover {
+    content: url(img/facebook_color.png);
     width: 30px;
     height: auto;
-  }
-  #linkedin:hover {
-    content: url(../homepage/img/linkedin_color.png);
+}
+#linkedin:hover {
+    content: url(img/linkedin_color.png);
     width: 30px;
     height: auto;
-  }
-  .logo-container img {
+}
+.logo-container img {
     height: 3rem;
-  }
+}
 /* ending of nav */
 main {
-    height: 100vh;
-    font-family: 'Poppins',sans-serif;  
+    height: 100vh;  
+    font-family: 'Poppins',sans-serif;
 }
 .part1 {
     display: flex;
@@ -312,7 +315,7 @@ footer {
     display: flex;
     height: 80vh;
     width: 100%;
-    transform: translateY(100vh);
+    transform: translateY(172vh);
     background-color: black;
 }
 .desc {
@@ -339,4 +342,84 @@ footer {
     text-decoration: none;
     font-size: 17px;
     line-height: 200%;
+}
+.wrapper{
+    background: linear-gradient(to bottom, #ece3dc, black);
+}
+  
+.wrapper h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+  
+.review{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+  
+.review .Sloosher{
+    background: rgb(228, 150, 243);
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 350px;
+    padding: 20px;
+    line-height: 20px;
+    color: #000000;  
+    position: relative;
+}
+  
+.review .Sloosher h3{
+    color: #000000;
+    font-size: 26px;
+    margin-top: 50px;
+}
+  
+.review .Sloosher p.role{
+    color: rgb(172, 0, 240);
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+  
+.review .Sloosher .review_img{
+    position: absolute;
+    top: -60px;
+    left: 32%;
+    width: 100px;
+    height: 100px; 
+}
+.review .Sloosher .review_img img{
+    width: 120px;
+    height: 120px;
+    padding: 2px;
+}
+.Sloosher:hover {
+    -moz-transform: translate(-2px, -2px);
+    -ms-transform: translate(-2px, -2px);
+    -o-transform: translate(-2px, -2px);
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-5px, -5px)
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(182, 107, 182);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  #myBtn:hover {
+    background-color: #555;
 }
