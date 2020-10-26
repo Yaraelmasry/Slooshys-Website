@@ -363,13 +363,13 @@ footer {
 }
   
 .review .Sloosher{
-    background: rgb(228, 150, 243);
+    background: rgba(95, 2, 114, 0);
     margin: 20px;
     margin-bottom: 50px;
     width: 350px;
     padding: 20px;
     line-height: 20px;
-    color: #000000;  
+    color: rgb(185, 185, 185);  
     position: relative;
 }
   
