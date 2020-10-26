@@ -8,14 +8,14 @@
     <meta charset="utf-8">
     <meta name = "robots" content="index,follow">  
     <link rel = "icon" href="../homepage/img/logo.ico">
-    <meta name="viewport" content="width = device-width, initial-scale=1.0"> 
+    <meta name="viewport" content-width = device-width, initial-scale= "1.0"> 
     <title>homepage</title> 
 </head>
 <body>
     <!-- beginning of nav -->
     <header>
         <div class="logo-container">
-            <a href="index.html"><img src="img/drink.png" alt="logo"></a>
+            <a href="index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
             <h4 class=logo>Slooshys</h4>
         </div>
         <nav>
@@ -27,9 +27,9 @@
                 <li><a class='nav-link' href="../contact/about.html">CONTACT</a></li>
             </ul>
             <ul class = 'socials'>
-                <li><a href="#"><img id = 'facebook' class='social' src="img/facebook.png" alt="facebook"></a></li>
-                <li><a href="#"><img id = 'linkedin' class='social' src="img/linkedin.png" alt="linkedin"></a></li>
-                <li><a href="#"><img id = 'twitter' class='social' src="img/twitter.png" alt="twitter"></a></li>
+                <li><a href="#"><img id = 'facebook' class='social' src="../homepage/img/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img id = 'linkedin' class='social' src="../homepage/img/linkedin.png" alt="linkedin"></a></li>
+                <li><a href="#"><img id = 'twitter' class='social' src="../homepage/img/twitter.png" alt="twitter"></a></li>
             </ul>
         </nav>
     </header>
@@ -42,16 +42,16 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo laudantium debitis est voluptas eum! Autem minus, et aut asperiores blanditiis maiores exercitationem modi labore. Laudantium deserunt hic ad sapiente?</p>
                 </div>
                 <div class="action">
-                    <a href="#"><button class="btn">Let's explore</button></a>
+                    <a href="../options/options.html"><button class="btn">Let's explore</button></a>
                 </div>
             </div>
             <div class="main-image">
-                <img class = 'image' src="img/smoothie.jpg" alt="slushy" height="680" width="100%">
+                <img class = 'image' src="../homepage/img/smoothie.jpg" alt="slushy" height="680" width="100%">
             </div>
         </section>
         <section class="part2">
             <div class="main-image2">
-                <img src="img/slushie-hand.jpg" alt="Another slushy" class="image2" height="620" width="500px">
+                <img src="../homepage/img/slushie-hand.jpg" alt="Another slushy" class="image2" height="620" width="500px">
             </div>
             <div class="title2">
                 <div class="text2">
@@ -59,23 +59,70 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quo laudantium debitis est voluptas eum! Autem minus, et aut asperiores blanditiis maiores exercitationem modi labore. Laudantium deserunt hic ad sapiente?</p>
                 </div>
                 <div class="action2">
-                    <a href="#"><button class="btn2">Check the full catalogue</button></a>
+                    <a href="../flavours/flavours.html"><button class="btn2">Check the full catalogue</button></a>
                 </div>
             </div>
         </section>
+        <section class="wrapper">
+            <h1>What our customers think!!</h1>
+            <div class="review">
+                <div class="Sloosher">
+                    <div class="review_img">
+                        <img src="../review/download.jpg" alt="client photo">
+                    </div>
+                    <h3>David Shroom</h3>
+                    <p class="role">Sloosher</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+                </div>
+                <div class="Sloosher">
+                    <div class="review_img">
+                        <img src="../review/thinking-woman-photograph.png" alt="client photo">
+                    </div>
+                    <h3>Laura Lee</h3>
+                    <p class="role">Sloosher</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
+                <div class="Sloosher">
+                    <div class="review_img">
+                        <img src="../review/photo-1438761681033-6461ffad8d80.jpg" alt="client photo">
+                    </div>
+                    <h3>Luara Schmicell</h3>
+                    <p class="role">Sloosher</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+                </div>
+            </div>
+        </section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <footer>
+            <section class = "desc">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, soluta?</h3>
+            </section>
+            <section class = "info">
+                <ul>
+                    <li><a class = desc-link href="#">link1</a></li>
+                    <li><a class = desc-link href="#">link2</a></li>
+                    <li><a class = desc-link href="#">link3</a></li>
+                    <li><a class = desc-link href="#">link4</a></li>
+                </ul>
+            </section>
+        </footer>
     </main>
-    <footer>
-        <section class = "desc">
-            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, soluta?</h3>
-        </section>
-        <section class = "info">
-            <ul>
-                <li><a class = desc-link href="#">link1</a></li>
-                <li><a class = desc-link href="#">link2</a></li>
-                <li><a class = desc-link href="#">link3</a></li>
-                <li><a class = desc-link href="#">link4</a></li>
-            </ul>
-        </section>
-    </footer>
+    <script>
+        var mybutton = document.getElementById("myBtn");
+        // Java Script Code
+       
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>        
 </body>
 </html>

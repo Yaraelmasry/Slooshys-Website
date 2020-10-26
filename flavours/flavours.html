@@ -49,6 +49,7 @@
          <p class= "style_the_paragraph">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam, dignissimos aliquid necessitatibus iusto repellat quaerat ab harum aliquam molestias nulla mollitia deleniti praesentium doloremque quis nostrum repellendus optio deserunt quae dolorem. Veritatis ducimus aut nihil, maxime culpa reprehenderit quod quis quia iure, repellendus illum quaerat excepturi possimus mollitia asperiores totam voluptas quidem laboriosam nobis pariatur in consequatur? Repudiandae qui dolorum eaque iste alias quam perspiciatis quibusdam neque sit cum?
          </p>
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
       </main>
       <footer>
          <section class = "desc">
@@ -63,5 +64,23 @@
              </ul>
          </section>
       </footer>
+      <script>
+         var mybutton = document.getElementById("myBtn");
+         // Java Script Code
+        
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>  
     </body>
 </html>
