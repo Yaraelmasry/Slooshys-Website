@@ -352,15 +352,17 @@ footer {
     font-size: 50px;
     margin-bottom: 60px;
     text-align: center;
-}
-  
+}   
+
+
 .review{
-    display: flex;
+    display:flex;
     justify-content: center;
     width: auto;
     text-align: center;
     flex-wrap: wrap;
 }
+
   
 .review .Sloosher{
     background: rgba(95, 2, 114, 0);
@@ -371,8 +373,19 @@ footer {
     line-height: 20px;
     color: rgb(185, 185, 185);  
     position: relative;
+    
 }
+ 
+.Sloosher{
+    animation: slider 5s ease-in-out infinite
   
+}
+
+.wrapper :hover .Sloosher{
+    animation-play-state: paused;
+}
+
+
 .review .Sloosher h3{
     color: #000000;
     font-size: 26px;
@@ -380,14 +393,14 @@ footer {
 }
   
 .review .Sloosher p.role{
-    color: rgb(172, 0, 240);
+    color: rgb(46, 46, 46);
     margin: 12px 0;
     font-size: 12px;
     text-transform: uppercase;
 }
   
 .review .Sloosher .review_img{
-    position: absolute;
+    position: relative;
     top: -60px;
     left: 32%;
     width: 100px;
@@ -398,13 +411,8 @@ footer {
     height: 120px;
     padding: 2px;
 }
-.Sloosher:hover {
-    -moz-transform: translate(-2px, -2px);
-    -ms-transform: translate(-2px, -2px);
-    -o-transform: translate(-2px, -2px);
-    -webkit-transform: translate(-2px, -2px);
-    transform: translate(-5px, -5px)
-}
+    
+
 #myBtn {
     display: none;
     position: fixed;
@@ -420,6 +428,12 @@ footer {
     padding: 15px;
     border-radius: 4px;
 }
-  #myBtn:hover {
-    background-color: #555;
+
+
+
+@keyframes slider{
+    0% {left:0}
+    20% {left:-200px;}
+    
+    
 }
