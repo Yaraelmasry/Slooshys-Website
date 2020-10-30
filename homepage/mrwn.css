@@ -6,6 +6,7 @@
 }
 body,html {
     position: relative;
+    font-size: 16px;
 }
 header {
     font-family: 'lato',sans-serif;
@@ -14,7 +15,7 @@ header {
     justify-content: center;
     background: transparent;
     align-items: center;
-    height: 8vh;
+    height: 8%;
     width: 100%;
     z-index: 2;
 }
@@ -23,8 +24,8 @@ header {
 }
 .logo {
     font-weight: 600;
-    margin: 5px;
-    letter-spacing: 1px;
+    margin: 0.3125rem;
+    letter-spacing: 0.0625rem;
 }
 .logo-container {
     align-items: center;
@@ -39,7 +40,7 @@ nav {
 .nav-links {
     justify-content: flex-end;
     list-style: none;
-    margin: 10px 30px 0 0;
+    margin: 0.625rem 1.875rem 0 0;
     flex: 5;
     align-content: center;
 }
@@ -49,10 +50,10 @@ nav {
     text-decoration: none;
     letter-spacing: 0.15rem;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 0.9375rem 1.25rem;
     position: relative;
-    margin-bottom: 10px;
-    transform: translateY(-10px);
+    margin-bottom: 0.625rem;
+    transform: translateY(-0.625rem);
   }
 .nav-link:hover {
     color: rgb(201, 92, 201);
@@ -62,7 +63,7 @@ nav {
     bottom: 0;
     content: "";
     display: block;
-    height: 2px;
+    height: 0.125rem;
     left: 50%;
     position: absolute;
     background: rgb(201, 92, 201);
@@ -77,66 +78,64 @@ nav {
     flex: 1;
     list-style: none;
     display: flex;
-    width: 25px;
+    width: 1.5625rem;
     height: auto;
-    margin-top: 8px;
+    margin-top: 0.5rem;
     justify-content: space-around;
 }
 .social {
-    margin-top: 3px;
-    width: 25px;
+    margin-top: 0.1875rem;
+    width: 1.5625rem;
     height: auto;
     transition: 0.4s all ease;
 }
 #twitter:hover {
     content: url(img/twitter_color.png);
-    width: 30px;
+    width: 1.875rem;
     height: auto;
 }
 #facebook:hover {
     content: url(img/facebook_color.png);
-    width: 30px;
+    width: 1.875rem;
     height: auto;
 }
 #linkedin:hover {
     content: url(img/linkedin_color.png);
-    width: 30px;
+    width: 1.875rem;
     height: auto;
 }
 .logo-container img {
     height: 3rem;
 }
 /* ending of nav */
-main {
-    height: 100vh;  
+main { 
     font-family: 'Poppins',sans-serif;
 }
 .part1 {
     display: flex;
-    height: 100vh;
-    align-items: center;
+    height: 40rem;
 }
 .title {
     width: 40%;
     align-content: center;
     z-index: 1;
-    padding: 40px;
-    margin: 150px 0 0 50px;
+    padding: 2.5rem;
+    margin: 9.375rem 0 0 3.125rem;
     animation: title-entrance 1.5s;
 }
 .text {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 .text h1 {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 1000;
     margin-left: 5%;
 }
 .text p {
-    font-size: 15px;
-    margin: 30px 0 0 3%;
+    font-size: 1rem;
+    margin: 1.875rem 0 0 3%;
     text-align: center;
     line-height: 200%;
 }
@@ -144,17 +143,17 @@ main {
     text-align: center;
 }
 .btn {
-    width: 135px;
-    height: 70px;
-    padding: 20px;
-    margin: 0 0 20px 0;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
     border: 0;
     background: none;
-    font-size: 15px;
-    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    font-size: 0.75rem;
+    font: 'lato'sans-serif;
     cursor: pointer;
     position: relative;
-    box-shadow: inset black 0 0 3px;
+    box-shadow: inset black 0 0 0.2rem;
     color: black;
     -webkit-transition: color 0.25s;
     transition: color 0.25s;
@@ -223,31 +222,29 @@ main {
     }
 }
 .part2 {
-    height: 100vh;
+    height: 40rem;
     background-color: #ece3dc;
     display: flex;
-    align-items: center;
 }
 
 .title2 {
-    justify-content: center;
     width: 40%;
     align-content: center;
     z-index: 1;
-    padding: 40px;
-    margin: 150px 0 0 200px;
+    padding: 2.5rem;
+    margin: 9.375rem 0 0 10rem;
     animation: title2-entrance 1.5s;
 }
 .text2 h1 {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 1000;
     margin-left: 5%;
 }
 .text2 p {
-    font-size: 15px;
-    margin: 30px 0 50px 3%;
+    font-size: 1rem;
+    margin: 1.875rem 0 0 3%;
     text-align: center;
     line-height: 200%;
 }
@@ -255,17 +252,17 @@ main {
     text-align: center;
 }
 .btn2 {
-    width: 150px;
-    height: 85px;
-    padding: 20px;
-    margin: 0 0 20px 0;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+    margin: 2rem 0 0 0;
     border: 0;
     background: none;
-    font-size: 15px;
-    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    font-size: 0.75rem;
+    font: 'lato'sans-serif;
     cursor: pointer;
     position: relative;
-    box-shadow: inset black 0 0 3px;
+    box-shadow: inset black 0 0 0.2rem;
     color: black;
     -webkit-transition: color 0.25s;
     transition: color 0.25s;
@@ -313,17 +310,16 @@ button::before, button::after {
 footer {
     position: absolute;
     display: flex;
-    height: 80vh;
+    height: 30%;
     width: 100%;
-    transform: translateY(172vh);
     background-color: black;
 }
 .desc {
     color: white;
     justify-content: center;
     flex: 1;
-    margin: 150px 70px 0 70px;
-    font-size: 20px;
+    margin: 9.375rem 4.375rem 0 4.375rem;
+    font-size: 1.25;
     width: 10%;
 }
 .desc h3 {
@@ -335,50 +331,67 @@ footer {
 .info ul {
     list-style: none;
     text-align: center;
-    margin: 150px 0 0 200px;
+    margin: 9.375rem 0 0 12.5rem;
 }
 .desc-link {
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.0625rem;
     line-height: 200%;
 }
-.wrapper{
-    background: linear-gradient(to bottom, #ece3dc, black);
+.wrapper {
+    background:rgb(243, 238, 238);
+    height: 40rem;
+    width: 100%;
+    display: inline-block;
+    align-content: center;
 }
   
-.wrapper h1{
+.wrapper h1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-    margin-bottom: 60px;
+    font-size: 3.125rem;
+    margin-bottom: 3.75;
     text-align: center;
+<<<<<<< HEAD
 }   
 
 
 .review{
     display:flex;
+=======
+}
+  
+.review {
+    display: flex;
+>>>>>>> 704a64a25fe4b094a419148fa314932abc12ddb4
     justify-content: center;
     width: auto;
     text-align: center;
     flex-wrap: wrap;
+    margin-top: 5rem;
+    transform: translateY(8rem);
 }
 
   
-.review .Sloosher{
-    background: rgba(95, 2, 114, 0);
-    margin: 20px;
-    margin-bottom: 50px;
-    width: 350px;
-    padding: 20px;
-    line-height: 20px;
-    color: rgb(185, 185, 185);  
+.review .Sloosher {
+    background: rgb(228, 150, 243);
+    margin: 1.25rem 1.25rem 3.125rem 1.25rem;
+    width: 21.875rem;
+    padding: 1.25rem;
+    line-height: 1.25rem;
+    color: #000000;   
     position: relative;
+<<<<<<< HEAD
     
+=======
+    transition: 0.3s all ease;
+>>>>>>> 704a64a25fe4b094a419148fa314932abc12ddb4
 }
  
 .Sloosher{
     animation: slider 5s ease-in-out infinite
   
+<<<<<<< HEAD
 }
 
 .wrapper :hover .Sloosher{
@@ -387,11 +400,15 @@ footer {
 
 
 .review .Sloosher h3{
+=======
+.review .Sloosher h3 {
+>>>>>>> 704a64a25fe4b094a419148fa314932abc12ddb4
     color: #000000;
-    font-size: 26px;
-    margin-top: 50px;
+    font-size: 1.625rem;
+    margin-top: 3.125rem;
 }
   
+<<<<<<< HEAD
 .review .Sloosher p.role{
     color: rgb(46, 46, 46);
     margin: 12px 0;
@@ -402,14 +419,26 @@ footer {
 .review .Sloosher .review_img{
     position: relative;
     top: -60px;
-    left: 32%;
-    width: 100px;
-    height: 100px; 
+=======
+.review .Sloosher p.role {
+    color: rgb(103, 3, 143);
+    margin: 0.75rem 0;
+    font-size: 0.75rem;
+    text-transform: uppercase;
 }
-.review .Sloosher .review_img img{
-    width: 120px;
-    height: 120px;
-    padding: 2px;
+  
+.review .Sloosher .review_img {
+    position: absolute;
+    top: -3.75rem;
+>>>>>>> 704a64a25fe4b094a419148fa314932abc12ddb4
+    left: 32%;
+    width: 6.25rem;
+    height: 5.25rem; 
+}
+.review .Sloosher .review_img img {
+    width: 7.5rem;
+    height: 7.5rem;
+    padding: 0.125rem;
 }
     
 
