@@ -65,41 +65,95 @@
         </section>
         <section class="wrapper">
             <h1>What our customers think!!</h1>
-            <div class="review">
-                <div class="Sloosher">
-                    <div class="review_img">
-                        <img src="../review/download.jpg" alt="client photo">
-                    </div>
-                    <h3>David Shroom</h3>
-                    <p class="role">Sloosher</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
-                </div>
-                <div class="Sloosher">
-                    <div class="review_img">
-                        <img src="../review/thinking-woman-photograph.png" alt="client photo">
-                    </div>
-                    <h3>Laura Lee</h3>
-                    <p class="role">Sloosher</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
-                <div class="Sloosher">
-                    <div class="review_img">
-                        <img src="../review/photo-1438761681033-6461ffad8d80.jpg" alt="client photo">
-                    </div>
-                    <h3>Luara Schmicell</h3>
-                    <p class="role">Sloosher</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
-                </div>
-                <div class="Sloosher">
-                    <div class="review_img">
-                        <img src="../review/joey-degrandis-hsam-memory.jpg" alt="client photo">
-                    </div>
-                    <h3>John Richer</h3>
-                    <p class="role">Sloosher</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
-                
-                </div>
+            <div class="slider">
+                <div class="slides">
+                  
+                  <input type="radio" name="radio-btn" id="radio1">
+                  <input type="radio" name="radio-btn" id="radio2">
+                  <input type="radio" name="radio-btn" id="radio3">
+                  <input type="radio" name="radio-btn" id="radio4">
+                  
+                  <div class="slide first">
+                      <div class="Sloosher">
+                          <div class="review_img">
+                            <img src="/web_projects/my_first_website/review/photo-1438761681033-6461ffad8d80.jpg" alt="client photo">
+                          </div>
+                          <h3>Lissa Mane</h3>
+                          <p class="role">Sloosher</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+                        </div>
+                  </div>
+                  <div class="slide">
+                      <div class="Sloosher">
+                          <div class="review_img">
+                            <img src="/web_projects/my_first_website/review/download.jpg" alt="client photo">
+                          </div>
+                          <h3>David Shroom</h3>
+                          <p class="role">Sloosher</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p></div>
+                  </div>
+                  <div class="slide">
+                      <div class="Sloosher">
+                          <div class="review_img">
+                            <img src="/web_projects/my_first_website/review/thinking-woman-photograph.png" alt="client photo">
+                          </div>
+                          <h3>Luara Schmicell</h3>
+                          <p class="role">Sloosher</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+                        </div>
+                  </div>
+                  <div class="slide">
+                    <div class="Sloosher">
+                              <div class="review_img">
+                                  <img src="/web_projects/my_first_website/review/joey-degrandis-hsam-memory.jpg" alt="client photo">
+                              </div>
+                              <h3>John Richer</h3>
+                              <p class="role">Sloosher</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+                              </div>
+                  </div>
+                  <div class="slide">
+                    <div class="Sloosher">
+                              <div class="review_img">
+                                  <img src="/web_projects/my_first_website/review/benefits-of-solo-traveling.jpeg" alt="client photo">
+                              </div>
+                              <h3>Rayman Shaw</h3>
+                              <p class="role">Sloosher</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
+                              </div>
+                  </div>
 
                   
+                  <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                  </div>
+                 
+                </div>
+               
+                <div class="navigation-manual">
+                  <label for="radio1" class="manual-btn"></label>
+                  <label for="radio2" class="manual-btn"></label>
+                  <label for="radio3" class="manual-btn"></label>
+                  <label for="radio4" class="manual-btn"></label>
+                </div>
+                
+              </div>
+             
+          <!-- Java script-->
+              <script type="text/javascript">
+              var counter = 2;
+              setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 4){
+                  counter = 1;
+                }
+              }, 5000);
+              </script>
+          
             </div>
         </section>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
