@@ -1,46 +1,86 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="hiba.css" />
-    </head> 
-    <body style="background-color: MintCream;"></body>   
-          <main>
-              <nav>
-                 <div class = "logo">
-                    <h4>Slooshies</h4>
-                 </div>
-                 <ul class = "navig">
-                    <li><a href = "#Home">Home</a></li>
-                    <li><a href = "#Products">Products</a></li>
-                    <li><a href = "#Pricing">Pricing</a></li>
-                    <li><a href = "#Contact">Contact</a></li>
-                 </ul>
-              </nav>
-              <h1>
-                Mixes
-              </h1>
-              <h2>
-                Flavours
-              </h2>
-              <p class= "pictures" >
-                 <img src="slushie.png" alt="image of a slushie" />
-                 <img src="slushie.png" alt="image of a slushie" />
-                 <img src="slushie.png" alt="image of a slushie" />
-                 </br>
-                 </br>
-                 </br>    
-                 <img src="slushie.png" alt="image of a slushie" />
-                 <img src="slushie.png" alt="image of a slushie" />
-                 <img src="slushie.png" alt="image of a slushie" />
-              </p>
-              <p class= "style_the_paragraph">
-                 Colors bounced around in her head. They mixed and threaded themselves together, 
-                 Even colors that had no business being together, 
-                 They were all one, yet distinctly separate at the same time. wegtwgfagwegwwegw
-                 iwhefoiwfwihfwohwfegwggwgwegwegegewqqtzezzgvsodsfwowieiutwpoututpoiec3gwgwggewcccqwgc
-                 liwoifhowhfoiewhhoiewhfewifhoewihfoewhfowiefehflcwutwpoefkdsfskghglkgslkhgsl
-                 fwefweegewe.kglkssHow was she going to explain this to the others?
-              </p>
-          </main>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel='stylesheet'>
+      <link rel = "stylesheet" href = "../flavours/hiba.css">
+      <meta name = "description" content = "Ever needed a cold drink? But nothing cold enough to suit your needs? Visit slooshys for the best flavours of slushies you can think of">
+      <meta charset="utf-8">
+      <meta name = "robots" content="index,follow">  
+      <link rel = "icon" href="../homepage/img/logo.ico">
+      <meta name="viewport" content="width = device-width, initial-scale=1.0"> 
+      <title>Check out our awesome flavors</title> 
+   </head>
+   <body style="background-color: MintCream;"> 
+      <header>
+         <div class="logo-container">
+            <a href="../homepage/index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
+            <h4 class=logo>Slooshys</h4>
+         </div>
+         <nav>
+             <ul class="nav-links">
+               <li><a class='nav-link' href="../homepage/index.html">HOME</a></li>
+               <li><a class='nav-link' href="../options/options.html">PRODUCTS</a></li>
+               <li><a class='nav-link' href="../flavours/flavours.html">FLAVORS</a></li>
+               <li><a class='nav-link' href="../Subscription PAGE/subscription.html">PRICING</a></li>
+               <li><a class='nav-link' href="../contact/about.html">CONTACT</a></li>
+            </ul>
+            <ul class = 'socials'>
+               <li><a href="#"><img id = 'facebook' class='social' src="../homepage/img/facebook.png" alt="facebook"></a></li>
+               <li><a href="#"><img id = 'linkedin' class='social' src="../homepage/img/linkedin.png" alt="linkedin"></a></li>
+               <li><a href="#"><img id = 'twitter' class='social' src="../homepage/img/twitter.png" alt="twitter"></a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <h1> Mixes </h1>
+         <h2> Flavours </h2>
+         <p class= "pictures" >
+            <img class = flavor-image src="slushie.png" alt="image of a slushie" />
+            <img class = flavor-image src="slushie.png" alt="image of a slushie" />
+            <img class = flavor-image src="slushie.png" alt="image of a slushie" />
+            </br>
+            </br>
+            </br>    
+            <img class = flavor-image src="slushie.png" alt="image of a slushie" />
+            <img class = flavor-image src="slushie.png" alt="image of a slushie" />
+            <img class = flavor-image src="slushie.png" alt="image of a slushie" />
+         </p>
+         <p class= "style_the_paragraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laboriosam, dignissimos aliquid necessitatibus iusto repellat quaerat ab harum aliquam molestias nulla mollitia deleniti praesentium doloremque quis nostrum repellendus optio deserunt quae dolorem. Veritatis ducimus aut nihil, maxime culpa reprehenderit quod quis quia iure, repellendus illum quaerat excepturi possimus mollitia asperiores totam voluptas quidem laboriosam nobis pariatur in consequatur? Repudiandae qui dolorum eaque iste alias quam perspiciatis quibusdam neque sit cum?
+         </p>
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      </main>
+      <footer>
+         <section class = "desc">
+             <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, soluta?</h3>
+         </section>
+         <section class = "info">
+             <ul>
+                 <li><a class = desc-link href="#">link1</a></li>
+                 <li><a class = desc-link href="#">link2</a></li>
+                 <li><a class = desc-link href="#">link3</a></li>
+                 <li><a class = desc-link href="#">link4</a></li>
+             </ul>
+         </section>
+      </footer>
+      <script>
+         var mybutton = document.getElementById("myBtn");
+         // Java Script Code
+        
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+             mybutton.style.display = "block";
+           } else {
+             mybutton.style.display = "none";
+           }
+         }
+         function topFunction() {
+           document.body.scrollTop = 0;
+           document.documentElement.scrollTop = 0;
+         }
+      </script>  
     </body>
 </html>
