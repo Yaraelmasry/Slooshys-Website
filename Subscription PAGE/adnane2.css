@@ -1,0 +1,357 @@
+/* beginning of nav*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  z-index: 2;
+  transform: translateY(-317px);
+}
+.logo-container, .nav-links {
+  display: flex;
+}
+.logo {
+  font-weight: 600;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+.logo-container {
+  align-items: center;
+  margin-left: 5%;
+}
+nav {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-content: center;
+}
+.nav-links {
+  justify-content: flex-end;
+  list-style: none;
+  margin: 10px 30px 0 0;
+  flex: 5;
+  align-content: center;
+}
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15rem;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  margin-bottom: 10px;
+  transform: translateY(-10px);
+}
+.nav-link:hover {
+  color: rgb(201, 92, 201);
+}
+.nav-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(201, 92, 201);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover:after {
+  width: 100%; 
+  left: 0; 
+}
+.socials {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  width: 25px;
+  height: auto;
+  margin-top: 8px;
+  justify-content: space-around;
+}
+.social {
+  margin-top: 3px;
+  width: 25px;
+  height: auto;
+  transition: 0.4s all ease;
+}
+#twitter:hover {
+  content: url(../homepage/img/twitter_color.png);
+  width: 30px;
+  height: auto;
+}
+#facebook:hover {
+  content: url(../homepage/img/facebook_color.png);
+  width: 30px;
+  height: auto;
+}
+#linkedin:hover {
+  content: url(../homepage/img/linkedin_color.png);
+  width: 30px;
+  height: auto;
+}
+.logo-container img {
+  height: 3rem;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --heading-font-family: 'Poppins', sans-serif;
+    --body-font-family: 'Lato', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--body-font-family);
+    margin-top: 30px;
+    background-color: #F8F9FB;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+  }
+  
+  .subscription_method {
+    width: 100%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .column {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 280px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 8px 31px rgba(52, 31, 97, 0.1);
+    padding: 2rem;
+    
+  }
+  
+  .column.Luxe {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 280px;
+    border-radius: 8px;
+    background-color: lightpink;
+    box-shadow: 0 8px 31px rgba(52, 31, 97, 0.1);
+    color: black;
+    padding: 2rem;
+    
+  }
+  
+  
+  
+  .column.nice {
+    margin-top: -1.5rem;
+    padding-top: 4rem;
+    margin-bottom: -1.5rem;
+    padding-bottom: 4rem;
+    position: relative;
+    background-color: darkcyan;
+    box-shadow : 0 8px 31px rgb(57, 172, 180);
+    color:  black;
+  }
+  
+  .column:first-child {
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+  }
+  
+  .column:last-child {
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+  }
+  
+  .price_h {
+    align-items: center;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .price {
+    font-size: 2.5rem;
+    display: flex;
+  }
+  
+  .dollar {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-right: .25rem;
+  }
+  
+  .monthly {
+    margin-bottom: 1.1rem;
+    text-transform: uppercase;
+    font-size: .70rem;
+    align-self: flex-end;
+    
+  }
+  
+  .name {
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .divider {
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 1px;
+    width: 100%;
+    
+  }
+  
+  .column.nice .divider {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+  }
+  
+  .feature img {
+    height: 1.1em;
+    width: 1.1em;
+    margin-right: .5rem;
+  }
+  
+  .feature.no {
+    color: rgb(182, 177, 177);
+    text-decoration-line: line-through;
+  }
+  
+  .Recommended {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+    position: absolute;
+    top: .6rem;
+    left: .6rem;
+    right: .6rem;
+    
+  }
+  
+  .cta {
+    cursor: pointer;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 4rem;
+    transition: 100ms;
+    transform: scale(1);
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: .60rem 1rem;
+    
+  }
+  
+  
+  
+  .column.nice .cta {
+    background-color:black;
+    color: white;
+  }
+  .column.Luxe .cta {
+    background-color:black;
+    color: white;
+  }
+  
+  .cta:hover, .cta:focus {
+    transform: scale(1.2);
+  }
+
+  .boutonlien{ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black ;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: var(--heading-font-family);
+    font-size: 30px;
+    cursor: pointer;
+    
+
+  }
+
+  .boutonlien:hover, .boutonlien:focus {
+    transform: scale(1.05);
+  }
+  footer {
+    position: absolute;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    transform: translateY(100vh);
+    background-color: black;
+}
+.desc {
+    color: white;
+    justify-content: center;
+    flex: 1;
+    margin: 150px 70px 0 70px;
+    font-size: 20px;
+    width: 10%;
+}
+.desc h3 {
+    text-align: center;
+}
+.info {
+    flex: 2;
+}
+.info ul {
+    list-style: none;
+    text-align: center;
+    margin: 150px 0 0 200px;
+}
+.desc-link {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 200%;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  background-color: #555;
+}
