@@ -6,6 +6,7 @@
 }
 body,html {
     position: relative;
+    font-size: 16px;
 }
 header {
     font-family: 'lato',sans-serif;
@@ -14,7 +15,7 @@ header {
     justify-content: center;
     background: transparent;
     align-items: center;
-    height: 8vh;
+    height: 8%;
     width: 100%;
     z-index: 2;
 }
@@ -23,8 +24,8 @@ header {
 }
 .logo {
     font-weight: 600;
-    margin: 5px;
-    letter-spacing: 1px;
+    margin: 0.3125rem;
+    letter-spacing: 0.0625rem;
 }
 .logo-container {
     align-items: center;
@@ -39,7 +40,7 @@ nav {
 .nav-links {
     justify-content: flex-end;
     list-style: none;
-    margin: 10px 30px 0 0;
+    margin: 0.625rem 1.875rem 0 0;
     flex: 5;
     align-content: center;
 }
@@ -49,10 +50,10 @@ nav {
     text-decoration: none;
     letter-spacing: 0.15rem;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 0.9375rem 1.25rem;
     position: relative;
-    margin-bottom: 10px;
-    transform: translateY(-10px);
+    margin-bottom: 0.625rem;
+    transform: translateY(-0.625rem);
   }
 .nav-link:hover {
     color: rgb(201, 92, 201);
@@ -62,7 +63,7 @@ nav {
     bottom: 0;
     content: "";
     display: block;
-    height: 2px;
+    height: 0.125rem;
     left: 50%;
     position: absolute;
     background: rgb(201, 92, 201);
@@ -77,66 +78,64 @@ nav {
     flex: 1;
     list-style: none;
     display: flex;
-    width: 25px;
+    width: 1.5625rem;
     height: auto;
-    margin-top: 8px;
+    margin-top: 0.5rem;
     justify-content: space-around;
 }
 .social {
-    margin-top: 3px;
-    width: 25px;
+    margin-top: 0.1875rem;
+    width: 1.5625rem;
     height: auto;
     transition: 0.4s all ease;
 }
 #twitter:hover {
     content: url(img/twitter_color.png);
-    width: 30px;
+    width: 1.875rem;
     height: auto;
 }
 #facebook:hover {
     content: url(img/facebook_color.png);
-    width: 30px;
+    width: 1.875rem;
     height: auto;
 }
 #linkedin:hover {
     content: url(img/linkedin_color.png);
-    width: 30px;
+    width: 1.875rem;
     height: auto;
 }
 .logo-container img {
     height: 3rem;
 }
 /* ending of nav */
-main {
-    height: 100vh;  
+main { 
     font-family: 'Poppins',sans-serif;
 }
 .part1 {
     display: flex;
-    height: 100vh;
-    align-items: center;
+    height: 40rem;
 }
 .title {
     width: 40%;
     align-content: center;
     z-index: 1;
-    padding: 40px;
-    margin: 150px 0 0 50px;
+    padding: 2.5rem;
+    margin: 9.375rem 0 0 3.125rem;
     animation: title-entrance 1.5s;
 }
 .text {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 .text h1 {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 1000;
     margin-left: 5%;
 }
 .text p {
-    font-size: 15px;
-    margin: 30px 0 0 3%;
+    font-size: 1rem;
+    margin: 1.875rem 0 0 3%;
     text-align: center;
     line-height: 200%;
 }
@@ -144,17 +143,17 @@ main {
     text-align: center;
 }
 .btn {
-    width: 135px;
-    height: 70px;
-    padding: 20px;
-    margin: 0 0 20px 0;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
     border: 0;
     background: none;
-    font-size: 15px;
-    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    font-size: 0.75rem;
+    font: 'lato'sans-serif;
     cursor: pointer;
     position: relative;
-    box-shadow: inset black 0 0 3px;
+    box-shadow: inset black 0 0 0.2rem;
     color: black;
     -webkit-transition: color 0.25s;
     transition: color 0.25s;
@@ -201,7 +200,6 @@ main {
 		margin-top: 40px;
 	}
 }
-
 @keyframes title-entrance {
     0% {
         opacity: 0;
@@ -223,50 +221,58 @@ main {
     }
 }
 .part2 {
-    height: 100vh;
-    background-color: #ece3dc;
-    display: flex;
-    align-items: center;
+    height: 40rem;
+    background-color: #f4f4f4;
+    padding: 4rem 0 0 0;
 }
-
+.wrap-part2 {
+    display: flex;
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    border: black 1px solid;
+    background-color: #2c3136;
+}
 .title2 {
-    justify-content: center;
-    width: 40%;
     align-content: center;
     z-index: 1;
-    padding: 40px;
-    margin: 150px 0 0 200px;
+    padding: 1rem 10rem 0 0;
+    margin-left: 9rem;
     animation: title2-entrance 1.5s;
 }
 .text2 h1 {
-    color: black;
+    color: #b2936d;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.4rem;
     font-weight: 1000;
     margin-left: 5%;
 }
 .text2 p {
-    font-size: 15px;
-    margin: 30px 0 50px 3%;
+    font-size: 0.8rem;
+    margin: 1.875rem 0 0 3%;
     text-align: center;
     line-height: 200%;
+    color: white;
+}
+.image2 {
+    margin-left: 1.4rem;
 }
 .action2 {
     text-align: center;
 }
 .btn2 {
-    width: 150px;
-    height: 85px;
-    padding: 20px;
-    margin: 0 0 20px 0;
+    width: 9rem;
+    height: 4rem;
+    padding: 1rem;
+    margin: 2rem 0 0 0;
     border: 0;
     background: none;
-    font-size: 15px;
-    font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+    font-size: 0.75rem;
+    font: 'lato'sans-serif;
     cursor: pointer;
     position: relative;
-    box-shadow: inset black 0 0 3px;
-    color: black;
+    box-shadow: inset #b2936d 0 0 0.2rem;
+    color: #b2936d;
     -webkit-transition: color 0.25s;
     transition: color 0.25s;
     box-sizing: border-box;
@@ -313,17 +319,16 @@ button::before, button::after {
 footer {
     position: absolute;
     display: flex;
-    height: 80vh;
+    height: 30%;
     width: 100%;
-    transform: translateY(172vh);
     background-color: black;
 }
 .desc {
     color: white;
     justify-content: center;
     flex: 1;
-    margin: 150px 70px 0 70px;
-    font-size: 20px;
+    margin: 9.375rem 4.375rem 0 4.375rem;
+    font-size: 1.25;
     width: 10%;
 }
 .desc h3 {
@@ -335,19 +340,16 @@ footer {
 .info ul {
     list-style: none;
     text-align: center;
-    margin: 150px 0 0 200px;
+    margin: 9.375rem 0 0 12.5rem;
 }
 .desc-link {
     color: white;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.0625rem;
     line-height: 200%;
 }
 .wrapper{
-    background: linear-gradient(to bottom, #ece3dc, black);
     overflow: hidden;
-    ;
-    
 }
   
 .wrapper h1{
@@ -528,6 +530,3 @@ footer {
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #ffffff;
 }
-                             
-  
-  
