@@ -352,8 +352,8 @@ footer {
   
 .wrapper h1{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
-    margin-bottom: 60px;
+    font-size: 270%;
+    margin-bottom: 10%;
     text-align: center;
 }   
 
@@ -375,6 +375,7 @@ footer {
     padding: 10px;
     line-height: 20px;
     color: rgb(185, 185, 185);  
+    font-size: 18px;
     position: relative;
     transition: 0.3s all ease;
     
@@ -405,6 +406,8 @@ footer {
     width: 120px;
     height: 120px;
     padding: 2px;
+    border:1px solid #021a40;
+    background-color:rgb(44, 44, 44);
 }
     
 
@@ -482,15 +485,15 @@ footer {
 }
   
 #radio2:checked ~ .first{
-    margin-left: -20%;
+    margin-left: -30%;
 }
   
 #radio3:checked ~ .first{
-    margin-left: -40%;
+    margin-left: -50%;
 }
   
 #radio4:checked ~ .first{
-    margin-left: -60%;
+    margin-left: -80%;
 }
   
 
@@ -500,19 +503,16 @@ footer {
     width: 1300px;
     justify-content: center;
     margin-top: 460px;
-}
-  
+} 
 .navigation-auto div{
     border: 2px solid #ffffff;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
-}
-  
+} 
 .navigation-auto div:not(:last-child){
     margin-right: 40px;
-}
-  
+} 
 #radio1:checked ~ .navigation-auto .auto-btn1{
     background: #ffffff;
 }
