@@ -350,6 +350,7 @@ footer {
 }
 .wrapper{
     overflow: hidden;
+    background-color: #f4f4f4
 }
   
 .wrapper h1{
@@ -357,6 +358,8 @@ footer {
     font-size: 270%;
     margin-bottom: 10%;
     text-align: center;
+    background-color: #f4f4f4
+    
 }   
 
 
@@ -366,18 +369,19 @@ footer {
     width: auto;
     text-align: center;
     flex-wrap: wrap;
+    background-color: #f4f4f4
 }
 
   
-.slide .Sloosher{
-    background: rgba(95, 2, 114, 0);
+.slide .Sloosher p{
     margin: 20px;
     margin-bottom: 50px;
-    width: 350px;
-    padding: 10px;
-    line-height: 20px;
-    color: rgb(185, 185, 185);  
-    font-size: 18px;
+    width: 650px;
+    padding: 5px;
+    line-height: 30px;  
+    color: rgb(83, 81, 81);  
+    left: 20%;
+    font-size: 26px;
     position: relative;
     transition: 0.3s all ease;
     
@@ -388,25 +392,29 @@ footer {
     color: #000000;
     font-size: 26px;
     margin-top: 50px;
+    left: 20%;
+    position: relative;
 }
   
 .slide .Sloosher p.role{
     color: rgb(46, 46, 46);
     margin: 12px 0;
-    font-size: 12px;
+    font-size: 18px;
+    position: relative;
+    left:22%;
     text-transform: uppercase;
 }
   
 .slide .Sloosher .review_img{
     position: relative;
     top: -60px;
-    left: 32%;
+    left: 55%;
     width: 100px;
     height: 100px; 
 }
 .slide .Sloosher .review_img img{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     padding: 2px;
     border:1px solid #021a40;
     background-color:rgb(44, 44, 44);
@@ -437,7 +445,7 @@ footer {
 }
   
 .slides{
-    width: 500%;
+    width: 900%;
     height: 500px;
     display: flex;
     
@@ -460,14 +468,14 @@ footer {
   
 .navigation-manual{
     position: absolute;
-    width: 1300px;
+    width: 1500px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
 }
   
 .manual-btn{
-    border: 2px solid #ffffff;
+    border: 2px solid #020202;
     padding: 5px;
     border-radius: 20px;
     cursor: pointer;
@@ -487,14 +495,17 @@ footer {
 }
   
 #radio2:checked ~ .first{
-    margin-left: -30%;
+    margin-left: -20%;
 }
   
 #radio3:checked ~ .first{
-    margin-left: -50%;
+    margin-left: -40%;
 }
   
 #radio4:checked ~ .first{
+    margin-left: -60%;
+}
+#radio5:checked ~ .first{
     margin-left: -80%;
 }
   
@@ -502,12 +513,12 @@ footer {
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 1300px;
+    width: 1500px;
     justify-content: center;
     margin-top: 460px;
 } 
 .navigation-auto div{
-    border: 2px solid #ffffff;
+    border: 2px solid #6ee8fd;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -516,17 +527,20 @@ footer {
     margin-right: 40px;
 } 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #ffffff;
+    background: #6ee8fd;
 }
   
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #ffffff;
+    background: #6ee8fd;
 }
   
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #ffffff;
+    background: #6ee8fd;
 }
   
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #ffffff;
+    background: #6ee8fd;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #6ee8fd;
 }
