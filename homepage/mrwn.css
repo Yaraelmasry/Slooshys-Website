@@ -374,6 +374,7 @@ footer {
 }   
 
 
+
 .slide{
     display:flex;
     justify-content: center;
@@ -394,7 +395,7 @@ footer {
     left: 20%;
     font-size: 1.625rem;
     position: relative;
-    transition: 0.3s all ease;
+    transition: 0.1s all ease;
     
 }
  
@@ -402,7 +403,7 @@ footer {
 .slide .Sloosher h3{
     color: #000000;
     font-size: 1.625;
-    margin-top: 3.125;
+    margin-top: 7%;
     left: 20%;
     position: relative;
 }
@@ -468,7 +469,7 @@ footer {
   
 .slide{
     width: 20%;
-    transition: 3s;
+    transition: 1s;
 }
   
 .slide img{
