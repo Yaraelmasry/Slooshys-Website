@@ -12,7 +12,7 @@
     <title>homepage</title> 
 </head>
 <body>
-    <header>
+    <header id="mynav">
         <div class="logo-container">
             <a href="index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
             <h4 class=logo>Slooshys</h4>
@@ -49,6 +49,9 @@
         </section>
         <section class="part2">
             <div class="wrap-part2">
+                <div class="main-image2">
+                    <img src="../homepage/img/slushie-hand.jpg" alt="Another slushy" class="image2" height="100%" width="95%">
+                </div>
                 <div class="title2">
                     <div class="text2">
                         <h1>What are we offering?</h1>
@@ -57,9 +60,6 @@
                     <div class="action2">
                         <a href="../flavours/flavours.html"><button class="btn2">Check the full catalogue</button></a>
                     </div>
-                </div>
-                <div class="main-image2">
-                    <img src="../homepage/img/slushie-hand.jpg" alt="Another slushy" class="image2" height="100%" width="95%">
                 </div>
             </div>
         </section>
@@ -72,11 +72,12 @@
                   <input type="radio" name="radio-btn" id="radio2">
                   <input type="radio" name="radio-btn" id="radio3">
                   <input type="radio" name="radio-btn" id="radio4">
+                  <input type="radio" name="radio-btn" id="radio5">
                   
                   <div class="slide first">
                       <div class="Sloosher">
                           <div class="review_img">
-                            <img src="../review/photo-1438761681033-6461ffad8d80.jpg" alt="client photo">
+                            <img src="../homepage/review/photo-1438761681033-6461ffad8d80.jpg" alt="client photo">
                           </div>
                           <h3>Lissa Mane</h3>
                           <p class="role">Sloosher</p>
@@ -86,7 +87,7 @@
                   <div class="slide">
                       <div class="Sloosher">
                           <div class="review_img">
-                            <img src="../review/download.jpg" alt="client photo">
+                            <img src="../homepage/review/download.jpg" alt="client photo">
                           </div>
                           <h3>David Shroom</h3>
                           <p class="role">Sloosher</p>
@@ -95,7 +96,7 @@
                   <div class="slide">
                       <div class="Sloosher">
                           <div class="review_img">
-                            <img src="../review/thinking-woman-photograph.png" alt="client photo">
+                            <img src="../homepage/review/thinking-woman-photograph.png" alt="client photo">
                           </div>
                           <h3>Luara Schmicell</h3>
                           <p class="role">Sloosher</p>
@@ -105,7 +106,7 @@
                   <div class="slide">
                     <div class="Sloosher">
                               <div class="review_img">
-                                  <img src="../review/joey-degrandis-hsam-memory.jpg" alt="client photo">
+                                  <img src="../homepage/review/joey-degrandis-hsam-memory.jpg" alt="client photo">
                               </div>
                               <h3>John Richer</h3>
                               <p class="role">Sloosher</p>
@@ -115,13 +116,14 @@
                   <div class="slide">
                     <div class="Sloosher">
                               <div class="review_img">
-                                  <img src="../review/benefits-of-solo-traveling.jpeg" alt="client photo">
+                                  <img src="../homepage/review/benefits-of-solo-traveling.jpeg" alt="client photo">
                               </div>
                               <h3>Rayman Shaw</h3>
                               <p class="role">Sloosher</p>
                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quaerat tempora, voluptatum quas facere dolorum aut cumque nihil nulla harum nemo distinctio quam blanditiis dignissimos.</p>
                     </div>
                   </div>
+                  
 
                   
                   <div class="navigation-auto">
@@ -129,6 +131,7 @@
                     <div class="auto-btn2"></div>
                     <div class="auto-btn3"></div>
                     <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
                   </div>
                  
                 </div>
@@ -138,6 +141,7 @@
                   <label for="radio2" class="manual-btn"></label>
                   <label for="radio3" class="manual-btn"></label>
                   <label for="radio4" class="manual-btn"></label>
+                  <label for="radio5" class="manual-btn"></label>
                 </div>
                 
               </div>
@@ -148,7 +152,7 @@
               setInterval(function(){
                 document.getElementById('radio' + counter).checked = true;
                 counter++;
-                if(counter > 4){
+                if(counter > 5){
                   counter = 1;
                 }
               }, 5000);
@@ -188,6 +192,20 @@
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
         }
-    </script>        
+    </script>   
+    <script>
+        var myNav = document.getElementById('mynav');
+        window.onscroll = function () { 
+            "use strict";
+            if (document.body.scrollTop >= 200 ) {
+                myNav.classList.add("nav-colored");
+                myNav.classList.remove("nav-transparent");
+            } 
+            else {
+                myNav.classList.add("nav-transparent");
+                myNav.classList.remove("nav-colored");
+            }
+        };
+    </script>     
 </body>
 </html>
