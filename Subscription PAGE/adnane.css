@@ -165,7 +165,7 @@ nav {
     position: relative;
     background-color: darkcyan;
     box-shadow : 0 8px 31px rgb(57, 172, 180);
-    color:  black;
+    color:  rgb(3, 5, 1);
   }
   
   .column:first-child {
