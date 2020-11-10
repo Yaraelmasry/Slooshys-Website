@@ -362,6 +362,7 @@ footer {
     overflow: hidden;
     background-color: #f4f4f4;
     width: 100%;
+    height: 600pt;
 }
   
 .wrapper h1{
@@ -369,11 +370,8 @@ footer {
     font-size: 270%;
     margin-bottom: 10%;
     text-align: center;
-    background-color: #f4f4f4;
-    
+    background-color: #f4f4f4;   
 }   
-
-
 
 .slide{
     display:flex;
@@ -382,6 +380,7 @@ footer {
     text-align: center;
     flex-wrap: wrap;
     background-color: #f4f4f4;
+    margin-bottom: 5%;
 }
 
   
@@ -396,6 +395,7 @@ footer {
     font-size: 1.625rem;
     position: relative;
     transition: 0.1s all ease;
+    background-color: #f4f4f4
     
 }
  
@@ -453,6 +453,7 @@ footer {
     width: 37.75rem;
     height: 31.25rem;
     border-radius: 0.625rem; 
+    background-color: #f4f4f4
     
 }
   
@@ -460,7 +461,7 @@ footer {
     width: 900%;
     height: 31.25rem;
     display: flex;
-    
+    background-color: #f4f4f4
 }
   
 .slides input{
@@ -470,11 +471,13 @@ footer {
 .slide{
     width: 20%;
     transition: 1s;
+    
 }
   
 .slide img{
     width: 50rem;
     height: 31.25rem;
+    
 }
   
   
@@ -484,6 +487,7 @@ footer {
     margin-top: -2.5rem;
     display: flex;
     justify-content: center;
+    
 }
   
 .manual-btn{
@@ -492,6 +496,8 @@ footer {
     border-radius: 1.25rem;
     cursor: pointer;
     transition: 1s;
+    margin-top: 3%;
+    
 }
   
 .manual-btn:not(:last-child){
@@ -521,7 +527,6 @@ footer {
     margin-left: -80%;
 }
   
-
 .navigation-auto{
     position: absolute;
     display: flex;
@@ -534,6 +539,7 @@ footer {
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
+    margin-top: 3%
 } 
 .navigation-auto div:not(:last-child){
     margin-right: 40px;
