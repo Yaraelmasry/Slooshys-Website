@@ -12,7 +12,7 @@
     <title>homepage</title> 
 </head>
 <body>
-    <header>
+    <header id="mynav">
         <div class="logo-container">
             <a href="index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
             <h4 class=logo>Slooshys</h4>
@@ -49,6 +49,9 @@
         </section>
         <section class="part2">
             <div class="wrap-part2">
+                <div class="main-image2">
+                    <img src="../homepage/img/slushie-hand.jpg" alt="Another slushy" class="image2" height="100%" width="95%">
+                </div>
                 <div class="title2">
                     <div class="text2">
                         <h1>What are we offering?</h1>
@@ -57,9 +60,6 @@
                     <div class="action2">
                         <a href="../flavours/flavours.html"><button class="btn2">Check the full catalogue</button></a>
                     </div>
-                </div>
-                <div class="main-image2">
-                    <img src="../homepage/img/slushie-hand.jpg" alt="Another slushy" class="image2" height="100%" width="95%">
                 </div>
             </div>
         </section>
@@ -192,6 +192,20 @@
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
         }
-    </script>        
+    </script>   
+    <script>
+        var myNav = document.getElementById('mynav');
+        window.onscroll = function () { 
+            "use strict";
+            if (document.body.scrollTop >= 200 ) {
+                myNav.classList.add("nav-colored");
+                myNav.classList.remove("nav-transparent");
+            } 
+            else {
+                myNav.classList.add("nav-transparent");
+                myNav.classList.remove("nav-colored");
+            }
+        };
+    </script>     
 </body>
 </html>
