@@ -118,7 +118,7 @@ nav {
     align-items: center;
     font-family: var(--body-font-family);
     margin-top: 30px;
-    background-color: #F8F9FB;
+    background-color: #92c9ee;
     min-width: 100vw;
     min-height: 100vh;
     
@@ -290,9 +290,8 @@ nav {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: black ;
+    background-color: #92c9ee;
     border: none;
-    color: white;
     text-align: center;
     font-family: var(--heading-font-family);
     font-size: 30px;
@@ -354,4 +353,22 @@ nav {
 }
 #myBtn:hover {
   background-color: #555;
+}
+
+
+.container {
+  position: relative;
+}
+
+.topleft {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  
 }
