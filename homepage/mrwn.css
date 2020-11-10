@@ -383,7 +383,7 @@ footer {
     left: 20%;
     font-size: 26px;
     position: relative;
-    transition: 0.3s all ease;
+    transition: 0.1s all ease;
     
 }
  
@@ -457,7 +457,7 @@ footer {
   
 .slide{
     width: 20%;
-    transition: 3s;
+    transition: 1s;
 }
   
 .slide img{
