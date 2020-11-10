@@ -14,10 +14,9 @@ header {
     justify-content: center;
     background: transparent;
     align-items: center;
-    height: 8vh;
+    height: 8%;
     width: 100%;
     z-index: 2;
-    transform: translateY(-50px);
 }
 .logo-container, .nav-links {
     display: flex;
@@ -113,6 +112,9 @@ body{
     font-family: 'Arimo', sans-serif;
     letter-spacing: 2px;
     line-height: 1.5;
+}
+main {
+    transform: translateY(3%);
 }
 .first_paragraph{
     padding : 50px;
