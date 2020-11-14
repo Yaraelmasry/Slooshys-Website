@@ -28,6 +28,7 @@ header {
     height: 8%;
     width: 100%;
     z-index: 2;
+    top: 0;
 }
 .logo-container, .nav-links {
     display: flex;
@@ -232,7 +233,7 @@ main {
 }
 .part2 {
     height: 40rem;
-    background-color: #f4f4f4;
+    background-color: white;
     padding: 4rem 0 0 0;
 }
 .wrap-part2 {
@@ -393,7 +394,7 @@ footer {
 }
 .wrapper{
     overflow: hidden;
-    background-color: #f4f4f4;
+    background-color: white;
     width: 100%;
     height: 53rem;
     padding-top: 5rem;
@@ -404,7 +405,7 @@ footer {
     font-size: 270%;
     margin-bottom: 10%;
     text-align: center;
-    background-color: #f4f4f4;   
+    background-color: white;   
 }   
 
 .slide{
@@ -413,7 +414,7 @@ footer {
     width: 100%;
     text-align: center;
     flex-wrap: wrap;
-    background-color: #f4f4f4;
+    background-color: white;
     margin-bottom: 5%;
 }
 
@@ -429,7 +430,7 @@ footer {
     font-size: 1.625rem;
     position: relative;
     transition: 0.1s all ease;
-    background-color: #f4f4f4;
+    background-color: white;
     
 }
  
@@ -487,7 +488,7 @@ footer {
     width: 37.75rem;
     height: 31.25rem;
     border-radius: 0.625rem; 
-    background-color: #f4f4f4;
+    background-color: white;
     
 }
   
@@ -495,7 +496,7 @@ footer {
     width: 900%;
     height: 31.25rem;
     display: flex;
-    background-color: #f4f4f4;
+    background-color: white;
 }
   
 .slides input{

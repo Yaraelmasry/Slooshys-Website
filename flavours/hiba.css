@@ -17,6 +17,7 @@ header {
     height: 8%;
     width: 100%;
     z-index: 2;
+    top: 0;
 }
 .logo-container, .nav-links {
     display: flex;
