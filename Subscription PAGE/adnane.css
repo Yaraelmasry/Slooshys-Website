@@ -287,23 +287,7 @@ nav {
     transform: scale(1.2);
   }
 
-  .boutonlien{ 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color:lightblue;
-    border: none;
-    text-align: center;
-    font-family: var(--heading-font-family);
-    font-size: 30px;
-    cursor: pointer;
-    
-
-  }
-
-  .boutonlien:hover, .boutonlien:focus {
-    transform: scale(1.05);
-  }
+ 
   footer {
     position: absolute;
     display: flex;
