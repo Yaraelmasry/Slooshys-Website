@@ -241,7 +241,7 @@ main {
     height: 80%;
     margin: auto;
     border: black 1px solid;
-    background-color: rgb(105, 69, 107);
+    background-color: white;
 }
 .title2 {
     align-content: center;
@@ -262,7 +262,7 @@ main {
     margin: 1.875rem 0 0 3%;
     text-align: center;
     line-height: 200%;
-    color: white;
+    color: black;
 }
 .image2 {
     margin-left: 0rem;
@@ -325,6 +325,10 @@ button::before, button::after {
     border-left-color: #bccc5f;
     -webkit-transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
     transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s;
+}
+.flav {
+    display: flex;
+    justify-content: flex-end;
 }
 footer {
     position: absolute;
