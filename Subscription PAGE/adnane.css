@@ -201,7 +201,7 @@ nav {
   .monthly {
     margin-bottom: 1.1rem;
     text-transform: uppercase;
-    font-size: .70rem;
+    font-size: .90rem;
     align-self: flex-end;
     
   }
@@ -255,6 +255,7 @@ nav {
     
   }
   
+
   .cta {
     cursor: pointer;
     font-family: var(--heading-font-family);
@@ -290,7 +291,7 @@ nav {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #92c9ee;
+    background-color:lightblue;
     border: none;
     text-align: center;
     font-family: var(--heading-font-family);
