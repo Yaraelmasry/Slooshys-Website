@@ -12,7 +12,7 @@ header {
     height: 8vh;
     width: 100%;
     z-index: 2;
-    transform: translateY(-75px);
+    top: 0;
 }
 .logo-container, .nav-links {
     display: flex;
@@ -101,221 +101,151 @@ nav {
 .logo-container img {
     height: 3rem;
 }
-main {
-    margin-top: 80px;
+/* ending of nav*/
+.hero-image {
+    background-image: url("coldbox.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-.options{
+  
+.hero-text {
     text-align: center;
-    color: black;
-    font-size: large;
-    padding-bottom: 20px;
-    padding-top: 1px;
-    background-color: #e6e6e6;
-}
-.protein{
-    position: relative;
-    width: 750px;
-    height: 700px;
-    font-size: large;
-    line-height: 300%;
-    font-family: 'Cambo';
-    justify-content: center;
-}
-.sugarfree{
-    position: relative;
-    width: 740px;
-    height: 700px;
-    left:740px;
-    bottom: 25px;
-    margin-left: 10px;
-    text-align: left;
-    font-size: large;
-    line-height: 300%;
-    padding-left: 10px;
-    font-family: 'Cambo';
-}
-.energymix{
-    position: relative;
-    width: 750px;
-    height: 700px;
-    bottom: 47px;
-    text-align: left;
-    font-size: large;
-    line-height: 300%;
-    font-family: 'Cambo';
-}
-.specialmix{
-    position: relative;
-    margin-left: 10px;
-    width: 740px;
-    height: 700px;
-    bottom: 71px;
-    left: 740px;
-    text-align: left;
-    font-size: large;
-    line-height: 300%;
-    padding-left: 10px;
-    font-family: 'Cambo';
-}
-/* this is for Images */
-.proteinimg{
-    bottom: 2871px;
-    width: 750px;
-    height: 700px;
-    left: 750px;
-    background-image: url("protein.jpg");
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.sugarimg{
-    position: relative;
-    width: 750px;
-    height: 700px;
-    bottom: 2871px;
-    background-image: url("Icelandic\ water.jpg");
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.energyimg{
-    position: relative;
-    bottom: 2871px;
-    width: 750px;
-    height: 700px;
-    left: 750px;
-    background-image: url("sugarfree.jpg");
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.specialimg {
-    position: relative;
-    bottom: 2871px;
-    width: 750px;
-    height: 700px;
-    background-image: url("slooch\ thing.png");
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/* this is for hovering */
-.textprot {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Aclonica';
-    font-size: 30px;
-  }
-  .overlayprot {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }
-.proteinimg:hover .overlayprot{
-    opacity: 1;
 }
-.textsug{
+#discover{
+    color: white;
+    font-size: 110%;
+}
+button{
+    border: 1px solid #ffa801;
+    font-family: "montserrat";
+    background: None;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+button:hover::before{
+    height: 180%;
+}
+button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #ffa801;
+    z-index: -1;
+    transition: 0.8s;
     color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Aclonica';
-    font-size: 30px;
+    top:0;
+    border-radius: 0 0 50% 50%;
 }
-.overlaysug{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
+body{
+    top: 3rem;
     width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #d3e0f0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
-.sugarimg:hover .overlaysug{
-    opacity: 1;
-}
-.texteng{
-    color: black;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Aclonica';
-    font-size: 30px;
-}
-.overlayeng{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
+.div1{
+    margin-top: 50px;
     width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #ebebeb;
+    display: flex;
+    justify-content: space-around;
 }
-.energyimg:hover .overlayeng{
-    opacity: 1;
+.getapp{
+    padding-top: 100px;
+    font-size: 150%;
 }
-.textspec{
-    color: black;
-    font-size: 20px;
+.title1{
+    padding-top: 10px;
+    font-family: "Aclonica";
+    color: #F06292;
+}
+.description {
+    padding-top: 50px;
+    font-family: "lato";
+}
+.text{
+    transition: transform .2s;
+    left: auto;
+    padding-left: 15px;
+    position: relative;
+    font-size: large;
+    flex: 1;
+    line-height: 270%;
+    
+}
+
+.slidershow {
+    width: 1000px;
+    height: 700px;
+    overflow: hidden;
+}
+.middle{
+    background-color: blue;
+    flex: 1;
+    position: relative;
+
+}
+.navigation{
     position: absolute;
-    top: 50%;
+    bottom: 20px;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Aclonica';
-    font-size: 30px;
+    transform: translateX(-50%);
+    display: flex;
 }
-.overlayspec{
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid black;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.bar:hover{
+    background: #fff;
+}
+input[name="r"]{
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #e5f8ff;
+    visibility: hidden;
 }
-.specialimg:hover .overlayspec{
-    opacity: 1;
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+#r3:checked ~ .s1{
+    margin-left: -40%;
+}
+#r4:checked ~ .s1{
+    margin-left: -60%;
 }
 #myBtn {
     display: none;
@@ -341,7 +271,7 @@ footer {
     height: 80vh;
     width: 100%;
     background-color: black;
-    transform: translateY(2800px);
+
 }
 .desc {
     color: white;
