@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name = "description" content = "Ever needed a cold drink? But nothing cold enough to suit your needs? Visit slooshys for the best flavours of slushies you can think of">
+        <meta charset="utf-8">
+        <meta name = "robots" content="index,follow"> 
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <link rel = "icon" href="../homepage/img/logo.ico">
+        <title>Check out our packages</title>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+        <link rel="stylesheet" href="aymancss.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+            <a href="../homepage/index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
+            <h4 class=logo>Slooshys</h4>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                <li><a class='nav-link' href="../homepage/index.html">HOME</a></li>
+                <li><a class='nav-link' href="../products/products.html">PRODUCTS</a></li>
+                <li><a class='nav-link' href="../flavours/flavours.html">FLAVORS</a></li>
+                <li><a class='nav-link' href="../Subscription PAGE/subscription.html">PRICING</a></li>
+                <li><a class='nav-link' href="../contact/about.html">CONTACT</a></li>
+            </ul>
+            <ul class = 'socials'>
+                <li><a href="#"><img id = 'facebook' class='social' src="../homepage/img/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img id = 'linkedin' class='social' src="../homepage/img/linkedin.png" alt="linkedin"></a></li>
+                <li><a href="#"><img id = 'twitter' class='social' src="../homepage/img/twitter.png" alt="twitter"></a></li>
+            </ul>
+            </nav>
+        </header>
+        <script>
+            $(document).ready(function(){
+                $("#r1").click(function(){
+                    $(".watertext").hide();
+                    $(".sodatext").hide();
+                    $(".engtext").hide();
+                    $(".prottext").fadeIn();
+                });
+            });
+            $(document).ready(function(){
+                $("#r2").click(function(){
+                    $(".prottext").hide();
+                    $(".sodatext").hide();
+                    $(".engtext").hide();
+                    $(".watertext").fadeIn();
+                });
+            });
+            $(document).ready(function(){
+                $("#r3").click(function(){
+                    $(".prottext").hide();
+                    $(".watertext").hide();
+                    $(".engtext").hide();
+                    $(".sodatext").fadeIn();
+                });
+            });
+            $(document).ready(function(){
+                $("#r4").click(function(){
+                    $(".prottext").hide();
+                    $(".sodatext").hide();
+                    $(".watertext").hide();
+                    $(".engtext").fadeIn();
+                });
+            });
+            $(document).ready(function(){
+                $("#checkout").click(function(){
+                    $('html, body').animate({
+                        scrollTop: ($(".div1").offset().top)
+                    }, 1000);
+                });
+            });       
+        </script>
+
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1 id="discover" style="font-size:50px">Discover The Taste of Freedom</h1>
+                    <button id="checkout">Checkout our latest and greatest!</button>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="slidershow middle">
+                    <div class="slides">
+                        <input type="radio" name="r" id="r1" checked>
+                        <input type="radio" name="r" id="r2">
+                        <input type="radio" name="r" id="r3">
+                        <input type="radio" name="r" id="r4">
+                        <div class="slide s1">
+                            <img src="bigprot.jpg" alt="protein">
+                        </div>
+                        <div class="slide">
+                            <img src="Icelandic water.jpg" alt="water">
+                        </div>
+                        <div class="slide">
+                            <img src="slooch thing.png" alt="soda">
+                        </div>
+                        <div class="slide">
+                            <img src="sugar free.jpg" alt="sugarfree">
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <label for="r1" class="bar"></label>
+                        <label for="r2" class="bar"></label>
+                        <label for="r3" class="bar"></label>
+                        <label for="r4" class="bar"></label>
+                    </div>
+                </div>
+                <div class="text">
+                    <div class="prottext">
+                        <h1 class="title1">Protein Drink</h1>
+                        <h2 class="description"> Our Slooshys Protein Drink !!! A mouth-watering fusion of BLUEBERRY + RASPBERRY! The ULTIMATE source of SHINY ENERGY! Channel your inner-master today and secure yours - If you can catch it!</h2>
+                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html">Slooshys App </a></h2>
+                    </div>
+                    <div class="watertext" style="display:none;">
+                        <h1 class="title1">Icelandic Water</h1>
+                        <h2 class="description">It’s the fast and delicious way to get through your day. With only zero calories and zero sugar, you’ll feel good knowing that your boost won’t hurt your body. Go ahead and grab a few, so you’ll always have a jumpstart on hand.</h2>
+                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html">Slooshys App </a></h2> 
+                    </div>
+                    <div class="sodatext" style="display:none;">
+                        <h1 class="title1">Hype Soda</h1>
+                        <h2 class="description">It gets the people going! It gets the taste buds tingling!! It gets the mouths watering!!! Sometimes, all you need is our Slooshys "Hype Soda" to liven up the day - And that’s EXACTLY what we’ve got for ya!</h2> 
+                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html">Slooshys App </a></h2>              
+                    </div>
+                    <div class="engtext" style="display:none;">
+                        <h1 class="title1">Energy Drink</h1>
+                        <h2 class="description">Be kind to your body. Drink our delicious Slooshys Smart Cold Pressed Juice. It contains rich vitamins and nutrients and has no added sugar. A refreshing boost with those daily vitamins and minerals you need for a great day.</h2>
+                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html">Slooshys App </a></h2>               
+                    </div>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </main>
+        <footer>
+            <section class = "desc">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, soluta?</h3>
+            </section>
+            <section class = "info">
+                <ul>
+                    <li><a class = desc-link href="#">link1</a></li>
+                    <li><a class = desc-link href="#">link2</a></li>
+                    <li><a class = desc-link href="#">link3</a></li>
+                    <li><a class = desc-link href="#">link4</a></li>
+                </ul>
+            </section>
+        </footer>
+    
+    
+    <script>
+    var mybutton = document.getElementById("myBtn");
+    // Java Script Code
+   
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>        
+
+</body>
+</html>

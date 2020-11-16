@@ -13,7 +13,7 @@
     height: 8vh;
     width: 100%;
     z-index: 2;
-    transform: translateY(-60px);
+    top: 0;
     font-family: 'Lato', sans-serif;
   }
   .logo-container, .nav-links {
