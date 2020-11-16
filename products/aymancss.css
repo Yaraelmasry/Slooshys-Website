@@ -105,7 +105,7 @@ nav {
 .hero-image {
     background-image: url("coldbox.jpg");
     background-color: #cccccc;
-    height: 600px;
+    height: 720px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,14 +153,12 @@ button::before{
     border-radius: 0 0 50% 50%;
 }
 body{
-    top: 3rem;
     width: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 .div1{
-    margin-top: 50px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -170,28 +168,47 @@ body{
     font-size: 150%;
 }
 .title1{
+    text-align: center;
     padding-top: 10px;
+    font-size: 250%;
     font-family: "Aclonica";
-    color: #F06292;
+    color: #0984e3;
 }
 .description {
     padding-top: 50px;
     font-family: "lato";
 }
+#app:link {
+    text-decoration: none;
+    color: #ffa801;
+}
+  
+#app:visited {
+    text-decoration: none;
+    color: #ffa801;
+}
+  
+#app:hover {
+    text-decoration: underline;
+}
+  
+#app:active {
+    text-decoration: underline;
+}
 .text{
-    transition: transform .2s;
+    padding-top: 10px;
     left: auto;
     padding-left: 15px;
     position: relative;
     font-size: large;
     flex: 1;
     line-height: 270%;
-    
+
 }
 
 .slidershow {
     width: 1000px;
-    height: 700px;
+    height: 720px;
     overflow: hidden;
 }
 .middle{
@@ -208,8 +225,8 @@ body{
     display: flex;
 }
 .bar{
-    width: 50px;
-    height: 10px;
+    width: 70px;
+    height: 15px;
     border: 2px solid black;
     margin: 6px;
     cursor: pointer;
