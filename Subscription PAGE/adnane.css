@@ -118,8 +118,6 @@ nav {
     align-items: center;
     font-family: var(--body-font-family);
     
-    background-color:lightblue;
-    
     min-height: 100vh;
     
   }
@@ -406,11 +404,10 @@ nav {
   background-color: #555;
 }
 
-.fade
-{
-        opacity:0.25;
+.color{
+   background-color: lightblue;
 }
-.fade:hover
+.color:hover
 {
-        opacity:1.5;
+        background:#1e63bd;
 }
