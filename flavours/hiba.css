@@ -169,19 +169,12 @@ h3{
    
 
 }
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
 .footer-container{
     background-color:#212329;
     padding:4rem 0 2rem 0;
 }
 .footer{
     width:80%;
-    height:40vh;
     background-color:#212329;
     color:white;
     display:flex;
@@ -257,6 +250,16 @@ h3{
      .footer-email-form{
          margin-top:2rem;
      }
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 0 auto;
+    padding-top: 1rem;
+    border-top: grey 1px solid;
+    width: 80%;
+    color: white;
+    font-family: 'lato',sans-serif;
 }
 
 #myBtn {

@@ -170,7 +170,7 @@ main {
     padding:15px;
     color:#fff;
 }
-.container .box .details .content h2
+.container .box .details .content a
 {
     margin:0;
     padding:0;
@@ -220,7 +220,7 @@ main {
     padding:15px;
     color:#fff;
 }
-.container .box .details1 .content1 h2
+.container .box .details1 .content1 a
 {
     margin:0;
     padding:0;
@@ -270,7 +270,7 @@ main {
     padding:15px;
     color:#fff;
 }
-.container .box .details2 .content2 h2
+.container .box .details2 .content2 a
 {
     margin:0;
     padding:0;
@@ -321,7 +321,7 @@ main {
     padding:15px;
     color:#fff;
 }
-.container .box .details3 .content3 h2
+.container .box .details3 .content3 a
 {
     margin:0;
     padding:0;
@@ -371,7 +371,7 @@ main {
     padding:15px;
     color:#fff;
 }
-.container .box .details4 .content4 h2
+.container .box .details4 .content4 a
 {
     margin:0;
     padding:0;
@@ -421,7 +421,7 @@ main {
     padding:15px;
     color:#fff;
 }
-.container .box .details5 .content5 h2
+.container .box .details5 .content5 a
 {
     margin:0;
     padding:0;
@@ -466,7 +466,6 @@ main {
 }
 .footer{
     width:80%;
-    height:40vh;
     background-color:#212329;
     color:white;
     display:flex;
@@ -542,5 +541,15 @@ main {
      .footer-email-form{
          margin-top:2rem;
      }
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 0 auto;
+    padding-top: 1rem;
+    border-top: grey 1px solid;
+    width: 80%;
+    color: white;
+    font-family: 'lato',sans-serif;
 }
 

@@ -4,7 +4,7 @@ body,html {
     position: relative;
 }
 header {
-    font-family:'Lato', sans-serif; ;
+    font-family:'Lato', sans-serif; 
     position: fixed;
     display: flex;
     justify-content: center;
@@ -291,19 +291,13 @@ main{
 }
 
 /*FOOTER */
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
 .footer-container{
     background-color:#212329;
     padding:4rem 0 2rem 0;
+    
 }
 .footer{
     width:80%;
-    height:40vh;
     background-color:#212329;
     color:white;
     display:flex;
@@ -379,4 +373,14 @@ main{
      .footer-email-form{
          margin-top:2rem;
      }
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 0 auto;
+    padding-top: 1rem;
+    border-top: grey 1px solid;
+    width: 80%;
+    color: white;
+    font-family: 'Arimo', sans-serif;
 }

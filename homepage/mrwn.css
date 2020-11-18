@@ -450,7 +450,16 @@ button::before, button::after {
          margin-top:2rem;
      }
 }
-
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 0 auto;
+    padding-top: 1rem;
+    border-top: grey 1px solid;
+    width: 80%;
+    color: white;
+    font-family: 'lato',sans-serif;
+}
 .wrapper{
     overflow: hidden;
     background-color: rgb(255, 255, 255);
