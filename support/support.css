@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Kavivanar");
+/* beginning of nav*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,html {
+  position: relative;
+}
+header {
+  font-family: 'Lato', sans-serif;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  align-items: center;
+  height: 8%;
+  width: 100%;
+  z-index: 2;
+  top: 0;
+}
+.logo-container, .nav-links {
+  display: flex;
+}
+.logo {
+  font-weight: 600;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+.logo-container {
+  align-items: center;
+  margin-left: 5%;
+}
+nav {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-content: center;
+}
+.nav-links {
+  justify-content: flex-end;
+  list-style: none;
+  margin: 10px 30px 0 0;
+  flex: 5;
+  align-content: center;
+}
+.nav-link {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15rem;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+  margin-bottom: 10px;
+  transform: translateY(-10px);
+}
+.nav-link:hover {
+  color: rgb(201, 92, 201);
+}
+.nav-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(201, 92, 201);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link:hover:after {
+  width: 100%; 
+  left: 0; 
+}
+.socials {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  width: 25px;
+  height: auto;
+  margin-top: 8px;
+  justify-content: space-around;
+}
+.social {
+  margin-top: 3px;
+  width: 25px;
+  height: auto;
+  transition: 0.4s all ease;
+}
+#twitter:hover {
+  content: url(../homepage/img/twitter_color.png);
+  width: 30px;
+  height: auto;
+}
+#facebook:hover {
+  content: url(../homepage/img/facebook_color.png);
+  width: 30px;
+  height: auto;
+}
+#linkedin:hover {
+  content: url(../homepage/img/linkedin_color.png);
+  width: 30px;
+  height: auto;
+}
+.logo-container img {
+  height: 3rem;
+}
+/* ending of nav */
+* {
+  margin-top: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  font-family: "Kavivanar", cursive;
+  background: #ffffff;
+  margin-top: 5%;
+}
+
+.wrapper {
+  margin: 0px auto 0;
+  width: 100%;
+  max-width: 680px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  letter-spacing: 1px;
+}
+
+/* form start */
+.form {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.top-form,
+.middle-form,
+.bottom-form {
+  width: 100%;
+  min-height: 65px;
+  margin: 10px 0;
+}
+
+.form input[type="text"],
+.form textarea {
+  border: 2px solid rgb(31, 29, 29);
+  padding: 10px 5px;
+  outline: none;
+  border-radius: 2px;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #f7ad3d;
+  outline: none;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.0125),
+    0 0 8px rgba(253, 228, 143, 0.5);
+}
+
+.form .label {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.top-form .sec {
+  width: 29.9%;
+  float: left;
+  margin-right: 5%;
+}
+.top-form .sec:last-child {
+  margin-right: 0;
+}
+
+.middle-form {
+  clear: both;
+}
+
+.bottom-form textarea {
+  height: 80px;
+}
+
+.btn {
+  background: #4ca1af;
+  width: 200px;
+  padding: 10px 0;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+.form-container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+  }
+
+
+
