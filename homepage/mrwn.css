@@ -19,6 +19,7 @@ header.scrolled {
     transition: background-color 200ms linear;
 }
 header {
+    overflow: hidden;
     font-family: 'lato',sans-serif;
     position: fixed;
     display: flex;
@@ -123,8 +124,11 @@ main {
     font-family: 'Poppins',sans-serif;
 }
 .part1 {
+    width: 84.24rem;
     display: flex;
     height: 40rem;
+    border: 1px solid white;
+    overflow: hidden;
 }
 .title {
     width: 40%;
@@ -206,6 +210,10 @@ main {
     position: absolute;
     z-index: -1;
 }
+.main-image img {
+    width: 84.25rem;
+    height: 38rem;
+}
 @media screen and (max-height: 300px) {
 	ul {
 		margin-top: 40px;
@@ -235,6 +243,8 @@ main {
     height: 40rem;
     background-color: white;
     padding: 4rem 0 0 0;
+    width: 84.25rem;
+    border: 1px white solid;
 }
 .wrap-part2 {
     display: flex;
@@ -331,7 +341,10 @@ button::before, button::after {
     display: flex;
     height: 39rem;
     background-color: white;
-    width: 100%;
+    width: 84.25rem;
+    border-bottom: 1px solid #212329;
+    border-right: 1px rgb(54, 54, 192) solid;
+
 }
 .download-image {
     flex: 1;
@@ -342,7 +355,7 @@ button::before, button::after {
 }
 .download-text {
     flex: 2;
-    margin: 5rem 0 0 4rem;
+    margin: 5rem 6rem 0 4rem;
 }
 .download-text h1 {
     font-size: 3rem;
@@ -371,6 +384,8 @@ button::before, button::after {
 .footer-container{
     background-color:#212329;
     padding:4rem 0 2rem 0;
+    width: 84.25rem;
+    border: 1px solid #212329;
 }
 .footer{
     width:80%;
@@ -465,7 +480,7 @@ button::before, button::after {
     background-color: rgb(255, 255, 255);
     height: 53rem;
     width: 1000pt;
-    border: 3px solid rgb(0, 98, 128);
+    border: 3px solid rgb(255, 255, 255);
     padding: 50px;
     margin: auto;
 }
