@@ -247,7 +247,7 @@ main {
 .title2 {
     align-content: center;
     z-index: 1;
-    padding: 1rem 10rem 0 0;
+    padding: 5rem 2rem 0 0;
     margin-left: 9rem;
     animation: title2-entrance 1.5s;
 }
@@ -259,7 +259,7 @@ main {
     margin-left: 5%;
 }
 .text2 p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 1.875rem 0 0 3%;
     text-align: center;
     line-height: 200%;
@@ -334,12 +334,14 @@ button::before, button::after {
     width: 100%;
 }
 .download-image {
-    position: absolute;
     flex: 1;
     right: 0;
 }
+.download-image img {
+    height: 100%;
+}
 .download-text {
-    flex: 1;
+    flex: 2;
     margin: 5rem 0 0 4rem;
 }
 .download-text h1 {
@@ -471,13 +473,10 @@ button::before, button::after {
     text-align: center;
     flex-wrap: wrap;
     background-color: white;
-    margin-bottom: 5%;
 }
 
   
 .slide .Sloosher p{
-    margin: 1.25rem;
-    margin-bottom: 3.125rem;
     width: 40.625rem;
     padding: 0.3125rem;
     line-height: 1.875;  
@@ -542,7 +541,6 @@ button::before, button::after {
   
 .slider{
     width: 37.75rem;
-    height: 31.25rem;
     border-radius: 0.625rem; 
     background-color: white;
     
@@ -550,7 +548,7 @@ button::before, button::after {
   
 .slides{
     width: 900%;
-    height: 31.25rem;
+    height: 28.25rem;
     display: flex;
     background-color: white;
 }
@@ -623,7 +621,7 @@ button::before, button::after {
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 460px;
+    margin-top: 25.7rem;
 } 
 .navigation-auto div{
     border: 2px solid #6ee8fd;
