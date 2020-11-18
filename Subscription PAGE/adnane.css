@@ -140,6 +140,8 @@ nav {
     padding: 2rem;
     
   }
+
+
   
   .column.Luxe {
     flex-grow: 1;
@@ -164,6 +166,10 @@ nav {
     background-color: lightblue;
     box-shadow : 0 8px 31px rgb(57, 172, 180);
     color:  rgb(3, 5, 1);
+  }
+
+  .column.nice:hover{
+    transform: scale(1.1);
   }
   
   .column:first-child {
