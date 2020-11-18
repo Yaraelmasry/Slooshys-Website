@@ -180,8 +180,9 @@ main {
 .container .box .details .content p
 {
     margin:10px 0 0;
-    padding:0;
+    padding:0px;
 }
+
 .container .box .Qaswar
 {
     position: relative;
@@ -229,7 +230,7 @@ main {
 }
 .container .box .details1 .content1 p
 {
-    max-resolution:1px;
+    margin:10px 0 0;
     padding:0;
 }
 .container .box .Marwan
