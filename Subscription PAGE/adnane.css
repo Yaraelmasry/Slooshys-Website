@@ -405,3 +405,12 @@ nav {
 #myBtn:hover {
   background-color: #555;
 }
+
+.fade
+{
+        opacity:0.25;
+}
+.fade:hover
+{
+        opacity:1.5;
+}
