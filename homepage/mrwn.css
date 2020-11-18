@@ -19,6 +19,7 @@ header.scrolled {
     transition: background-color 200ms linear;
 }
 header {
+    border: transparent 1px solid;
     overflow: hidden;
     font-family: 'lato',sans-serif;
     position: fixed;
@@ -124,10 +125,10 @@ main {
     font-family: 'Poppins',sans-serif;
 }
 .part1 {
-    width: 84.24rem;
+    max-width: 90rem;
     display: flex;
     height: 40rem;
-    border: 1px solid white;
+    border: 1px solid transparent;
     overflow: hidden;
 }
 .title {
@@ -240,15 +241,17 @@ main {
     }
 }
 .part2 {
+    display: flex;
+    justify-content: center;
     height: 40rem;
     background-color: white;
     padding: 4rem 0 0 0;
-    width: 84.25rem;
-    border: 1px white solid;
+    max-width: 90rem;
+    border: 1px transparent solid;
 }
 .wrap-part2 {
     display: flex;
-    width: 70%;
+    width: 60%;
     height: 80%;
     margin: auto;
     border: black 1px solid;
