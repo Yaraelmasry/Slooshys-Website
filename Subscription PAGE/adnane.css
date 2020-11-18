@@ -300,7 +300,6 @@ nav {
 }
 .footer{
   width:80%;
-  height:40vh;
   background-color:#212329;
   color:white;
   display:flex;
@@ -376,6 +375,16 @@ nav {
    .footer-email-form{
        margin-top:2rem;
    }
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto 0 auto;
+  padding-top: 1rem;
+  border-top: grey 1px solid;
+  width: 80%;
+  color: white;
+  font-family: 'lato',sans-serif;
 }
   
 #myBtn {
