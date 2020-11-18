@@ -139,7 +139,7 @@ main {
 }
 .container .box .Yara img
 {
-    max-width:100%;
+    max-width:120%;
     transition: transform 2s;
 }
 .container .box:hover .Yara img
@@ -229,7 +229,7 @@ main {
 }
 .container .box .details1 .content1 p
 {
-    margin:10px 0 0;
+    max-resolution:1px;
     padding:0;
 }
 .container .box .Marwan
@@ -239,7 +239,7 @@ main {
 }
 .container .box .Marwan img
 {
-    max-width:100%;
+    max-width:140%;
     transition: transform 2s;
 }
 .container .box:hover .Marwan img
@@ -290,7 +290,7 @@ main {
 }
 .container .box .Ayman img
 {
-    max-width:100%;
+    max-width:106%;
     transition: transform 2s;
 }
 .container .box:hover .Ayman img
@@ -340,7 +340,7 @@ main {
 }
 .container .box .Hiba img
 {
-    max-width:100%;
+    max-width:102%;
     transition: transform 2s;
 }
 .container .box:hover .Hiba img
@@ -390,7 +390,7 @@ main {
 }
 .container .box .Adnane img
 {
-    max-width:100%;
+    max-width:104%;
     transition: transform 2s;
 }
 .container .box:hover .Adnane img
