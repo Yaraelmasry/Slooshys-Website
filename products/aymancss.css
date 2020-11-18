@@ -233,6 +233,7 @@ body{
     margin: 6px;
     cursor: pointer;
     transition: 0.4s;
+    background: #ffa801;
 }
 .bar:hover{
     background: #fff;
