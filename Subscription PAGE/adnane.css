@@ -168,7 +168,9 @@ nav {
   }
 
   .column:hover{
-    transform: scale(1.1)
+    transform: scale(1.1);
+    box-shadow: 0 8px 31px rgba(255, 255, 255, 0.836);
+    
     }
  
    .column.Luxe:hover{
