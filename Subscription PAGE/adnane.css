@@ -148,7 +148,7 @@ nav {
     flex-basis: 0;
     max-width: 280px;
     border-radius: 8px; 
-    background-color: pink;
+    background-color:#c28285;
     color: black;
     padding: 2rem;
     
@@ -162,24 +162,34 @@ nav {
     margin-bottom: -1.5rem;
     padding-bottom: 2.5rem;
     position: relative;
-    background-color: lightblue;
+    background-color:lightblue;
    
     color:  rgb(3, 5, 1);
   }
 
   .column:hover{
     transform: scale(1.1);
-    box-shadow: 0 8px 31px rgba(255, 255, 255, 0.836);
+    box-shadow: 0 8px 31px gold;
+    margin-top: -1rem;
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+    padding-bottom: 2rem;
+    position: relative;
     
     }
  
    .column.Luxe:hover{
     transform: scale(1.1);
-    box-shadow: 0 8px 31px pink;
+    box-shadow: 0 8px 31px gold ;
+    margin-top: -1rem;
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+    padding-bottom: 2rem;
+    position: relative;
   }
   .column.nice:hover{
     transform: scale(1.1);
-    box-shadow : 0 8px 31px rgb(57, 172, 180);
+    box-shadow : 0 8px 31px gold;
   }
   
   .column:first-child {
