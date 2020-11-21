@@ -136,7 +136,7 @@ nav {
     max-width: 280px;
     border-radius: 8px;
     background-color: white;
-    box-shadow: 0 8px 31px rgba(52, 31, 97, 0.1);
+    
     padding: 2rem;
     
   }
@@ -147,9 +147,8 @@ nav {
     flex-grow: 1;
     flex-basis: 0;
     max-width: 280px;
-    border-radius: 8px;
-    background-color: lightpink;
-    box-shadow: 0 8px 31px rgba(52, 31, 97, 0.1);
+    border-radius: 8px; 
+    background-color: pink;
     color: black;
     padding: 2rem;
     
@@ -159,17 +158,26 @@ nav {
   
   .column.nice {
     margin-top: -1.5rem;
-    padding-top: 4rem;
+    padding-top: 3rem;
     margin-bottom: -1.5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2.5rem;
     position: relative;
     background-color: lightblue;
-    box-shadow : 0 8px 31px rgb(57, 172, 180);
+   
     color:  rgb(3, 5, 1);
   }
 
+  .column:hover{
+    transform: scale(1.1)
+    }
+ 
+   .column.Luxe:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 31px pink;
+  }
   .column.nice:hover{
     transform: scale(1.1);
+    box-shadow : 0 8px 31px rgb(57, 172, 180);
   }
   
   .column:first-child {
@@ -411,9 +419,5 @@ nav {
 }
 
 .color{
-   background-color: lightblue;
-}
-.color:hover
-{
-        background:#1e63bd;
+  background-color: #5e9df0;
 }
