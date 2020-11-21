@@ -8,12 +8,13 @@
       <meta charset="utf-8">
       <meta name = "robots" content="index,follow">  
       <link rel = "icon" href="../homepage/img/logo.ico">
-      <meta name="viewport" content="width = device-width, initial-scale=1.0"> 
+      <meta name="viewport" content="width = device-width, initial-scale=1.0">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
       <title>Check out our awesome flavors</title> 
       
    </head>
    <body> 
-      <header>
+      <header id = mynav>
          <div class="logo-container">
             <a href="../homepage/index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
             <h4 class=logo>Slooshys</h4>
@@ -33,6 +34,24 @@
             </ul>
          </nav>
       </header>
+      <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+  	            var scroll = $(window).scrollTop();
+	            if (scroll > 100) {
+	                $("#mynav").css("background" , "#d8eff5");
+                    $("#mynav").css("box-shadow" , "0 2px 4px -2px gray");
+                    $("#mynav").css("transition" , "0.4s all ease");
+	            }
+
+	            else{
+		            $("#mynav").css("background" , "transparent");  
+                    $("#mynav").css("border" , "none");	
+                    $("#mynav").css("box-shadow" , "none");
+	            }
+            })
+        })
+    </script>
       <main>
          <img src="logo.png" alt="a picture" class="logo_pic" style="width:100px;">
          <div class="content-wrapper">
