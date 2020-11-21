@@ -8,6 +8,7 @@ body,html {
     position: relative;
 }
 header {
+    font-size: 16px;
     font-family: 'Lato', sans-serif;
     position: fixed;
     display: flex;
@@ -110,12 +111,12 @@ nav {
 /* ending of nav */
 body{
     background-color: azure; 
-    font-family: 'Arimo', sans-serif;
-    letter-spacing: 2px;
-    line-height: 1.5;
 }
 main {
+    font-family: 'Arimo', sans-serif;
     transform: translateY(3%);
+    letter-spacing: 2px;
+    line-height: 1.5;
 }
 .first_paragraph{
     padding : 50px;
@@ -124,8 +125,6 @@ main {
 .two-column-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
-    
 }
 .profile-image-wrapper img{
     width: 100%;
@@ -178,7 +177,8 @@ h3{
     padding:4rem 0 2rem 0;
 }
 .footer{
-    width:90%;
+    font-family: Arial, Helvetica, sans-serif;
+    width:80%;
     background-color:#212329;
     color:white;
     display:flex;
