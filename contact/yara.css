@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   header {
     position: fixed;
@@ -113,6 +114,7 @@ html body{
 }
 main {
     margin-top: 60px;
+    
 }
 .container{
     width:960px;
@@ -177,12 +179,20 @@ main {
     font-size:20px;
     color:#FFEBCD;
 }
+.email {
+    cursor: pointer;
+}
 .container .box .details .content p
 {
     margin:10px 0 0;
     padding:0px;
 }
-
+.box a {
+    text-decoration: none;
+}
+.box a:hover {
+    text-decoration: underline;
+}
 .container .box .Qaswar
 {
     position: relative;
@@ -190,7 +200,7 @@ main {
 }
 .container .box .Qaswar img
 {
-    max-width:100%;
+    max-width: 99.5%;
     transition: transform 2s;
 }
 .container .box:hover .Qaswar img
@@ -240,7 +250,7 @@ main {
 }
 .container .box .Marwan img
 {
-    max-width:140%;
+    max-width:150%;
     transition: transform 2s;
 }
 .container .box:hover .Marwan img

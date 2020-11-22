@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 header {
   position: fixed;
   display: flex;
@@ -124,7 +125,7 @@ nav {
   
   .subscription_method {
     width: 100%;
-    margin: 2rem;
+    margin:5.5rem;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -297,7 +298,9 @@ nav {
   }
   
   
-  
+  .email {
+    cursor: pointer;
+  }
  .column.nice .cta {
     background-color:black;
     color: white;
@@ -431,5 +434,5 @@ nav {
 }
 
 .color{
-  background-color: #5e9df0;
+  background-color: #83cef1;
 }

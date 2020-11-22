@@ -10,10 +10,11 @@
     <meta name = "robots" content="index,follow">  
     <link rel = "icon" href="../homepage/img/logo.ico">
     <meta name="viewport" content="width = device-width, initial-scale=1.0"> 
-    <title> about the team </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Our team</title>
 </head>
 <body></body>
-    <header>
+    <header id = mynav>
         <div class="logo-container">
         <a href="../homepage/index.html"><img src="../homepage/img/drink.png" alt="logo"></a>
         <h4 class=logo>Slooshys</h4>
@@ -21,22 +22,40 @@
         <nav>
             <ul class="nav-links">
             <li><a class='nav-link' href="../homepage/index.html">HOME</a></li>
-            <li><a class='nav-link' href="../products/products.html">PRODUCTS</a></li>
+            <li><a class='nav-link' href="../products/products.html">OPTIONS</a></li>
             <li><a class='nav-link' href="../flavours/flavours.html">FLAVORS</a></li>
             <li><a class='nav-link' href="../Subscription PAGE/subscription.html">PRICING</a></li>
             <li><a class='nav-link' href="../contact/about.html">CONTACT</a></li>
         </ul>
         <ul class = 'socials'>
-            <li><a href="#"><img id = 'facebook' class='social' src="../homepage/img/facebook.png" alt="facebook"></a></li>
-            <li><a href="#"><img id = 'linkedin' class='social' src="../homepage/img/linkedin.png" alt="linkedin"></a></li>
-            <li><a href="#"><img id = 'twitter' class='social' src="../homepage/img/twitter.png" alt="twitter"></a></li>
+            <li><a href="https://www.facebook.com/groups/384754424954305" target="_blank"><img id = 'facebook' class='social' src="../homepage/img/facebook.png" alt="facebook"></a></li>
+            <li><a href="https://www.linkedin.com/in/cold-drinks-49012b50/" target="_blank"><img id = 'linkedin' class='social' src="../homepage/img/linkedin.png" alt="linkedin"></a></li>
+            <li><a href="https://twitter.com/hashtag/colddrink?lang=en" target="_blank"><img id = 'twitter' class='social' src="../homepage/img/twitter.png" alt="twitter"></a></li>
         </ul>
         </nav>
     </header>
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+  	            var scroll = $(window).scrollTop();
+	            if (scroll > 100) {
+	                $("#mynav").css("background" , "#d8eff5");
+                    $("#mynav").css("box-shadow" , "0 2px 4px -2px gray");
+                    $("#mynav").css("transition" , "0.4s all ease");
+	            }
+
+	            else{
+		            $("#mynav").css("background" , "transparent");  
+                    $("#mynav").css("border" , "none");	
+                    $("#mynav").css("box-shadow" , "none");
+	            }
+            })
+        })
+    </script>
     <main>
         <!--Logo-->
         <table>
-        </td><h1 style="color:rgb(139, 0, 139);text-align:center">Meet Our Team </h1></td>
+        </td><h1 style="color:darkmagenta;text-align:center;font-family:'lato',sans-serif">Meet Our Team </h1></td>
         </table>
        
         <body> 
@@ -55,7 +74,7 @@
                 </div>
                 <div class="box">
                     <div class="Qaswar">
-                        <img src="male2.png">
+                        <img src="Qaswar.png.jpeg">
                         </div>
                         <div class="details1">
                             <div class="content1">
@@ -121,13 +140,13 @@
                     <div class="footer-heading footer-2">
                         <h2>Customer Support</h2>
                         <a href="../support/support.html">Support</a>
-                        <a onclick="myFunction()">Our Email</a>
+                        <a class = "email" onclick="myFunction()">Our Email</a>
                     </div>
                     <div class="footer-heading footer-3">
                         <h2>Social Media</h2>
-                        <a href="#">Instagram</a>
-                        <a href="#">Facebook</a>
-                        <a href="#">Linkedin</a>
+                        <a href="https://twitter.com/hashtag/colddrink?lang=en" target="_blank">Twitter</a>
+                        <a href="https://www.facebook.com/groups/384754424954305" target="_blank">Facebook</a>
+                        <a href="https://www.linkedin.com/in/cold-drinks-49012b50/" target="_blank">Linkedin</a>
                     </div>
                     <div class="footer-email-form">
                         <h2>Join Our Newsletter</h2>
