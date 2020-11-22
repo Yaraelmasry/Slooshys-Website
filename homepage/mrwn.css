@@ -191,17 +191,6 @@ main {
     opacity: 0;
     transition: all .3s ease-in-out 0s;
 }
-<<<<<<< HEAD
-.btn::before {
-    background-color: rgb(96, 160, 197);
-    top: -1rem;
-    left: 0rem;
-}
-.btn::after {
-    background-color: #9d5ac4;
-    top: 1rem;
-    left: 8rem;
-=======
   
 .btn:hover, .btn:focus {
     color: #313133;
@@ -210,7 +199,6 @@ main {
   
 .btn:hover::before, .btn:focus::before {
     opacity: 1;
->>>>>>> c4a85a9955dddaedd4d04f7de39c45775a844ca8
 }
   
 .btn::after {
