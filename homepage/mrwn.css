@@ -149,7 +149,7 @@ main {
     margin-left: 5%;
 }
 .text p {
-    font-family: Consolas, monaco, monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     margin: 1.875rem 0 0 3%;
     text-align: center;
