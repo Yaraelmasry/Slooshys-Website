@@ -179,12 +179,20 @@ main {
     font-size:20px;
     color:#FFEBCD;
 }
+.email {
+    cursor: pointer;
+}
 .container .box .details .content p
 {
     margin:10px 0 0;
     padding:0px;
 }
-
+.box a {
+    text-decoration: none;
+}
+.box a:hover {
+    text-decoration: underline;
+}
 .container .box .Qaswar
 {
     position: relative;

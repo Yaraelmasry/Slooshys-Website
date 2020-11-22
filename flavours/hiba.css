@@ -114,7 +114,7 @@ body{
 }
 main {
     font-family: 'Arimo', sans-serif;
-    transform: translateY(3%);
+    margin-top: 5%;
     letter-spacing: 2px;
     line-height: 1.5;
 }
@@ -218,6 +218,9 @@ h3{
 }
 #footer-email::placeholder{
     color:#b1b1b1;
+}
+.email {
+    cursor: pointer;
 }
 #footer-email-btn{
     width: 100px;

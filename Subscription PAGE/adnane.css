@@ -298,7 +298,9 @@ nav {
   }
   
   
-  
+  .email {
+    cursor: pointer;
+  }
  .column.nice .cta {
     background-color:black;
     color: white;
