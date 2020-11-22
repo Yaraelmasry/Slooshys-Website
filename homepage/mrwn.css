@@ -180,12 +180,12 @@ main {
     z-index: -2;
 }
 .btn::before {
-    background-color: rgb(62, 151, 202);
+    background-color: rgb(96, 160, 197);
     top: -1rem;
     left: 0rem;
 }
 .btn::after {
-    background-color: #e147e6;
+    background-color: #9d5ac4;
     top: 1rem;
     left: 8rem;
 }
@@ -507,12 +507,12 @@ main {
 }
   
 .wrapper h1{
-    font-family: sans-serif;
+    font-family: 'lato',sans-serif;
     font-size: 270%;
     margin-bottom: 10%;
     text-align: center;
     background-color: white;  
-    color: #041d64; 
+    color: #160464; 
 }   
 
 .slide{
@@ -529,6 +529,7 @@ main {
     width: 40.625rem;
     padding: 0.3125rem;
     line-height: 1.875;  
+    font-family: 'lato',sans-serif;
     color: rgb(83, 81, 81);  
     left: 17%;
     font-size: 1.625rem;
@@ -543,14 +544,16 @@ main {
     color: #000000;
     font-size: 1.625;
     margin-top: 7%;
+    font-family: 'lato',sans-serif;
     left: 14%;
     position: relative;
 }
   
 .slide .Sloosher p.role{
     color: rgb(46, 46, 46);
-    margin: 1.25rem 0;
+    margin: 0.5rem 0;
     font-size: 1.125rem;
+    font-family: 'lato',sans-serif;
     position: relative;
     left:14%;
     text-transform: uppercase;
