@@ -159,6 +159,7 @@ body{
     
 }
 .div1{
+
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -182,7 +183,7 @@ body{
 }
 .description {
     padding-top: 50px;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #app:link {
     text-decoration: none;
