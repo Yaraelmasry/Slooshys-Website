@@ -262,16 +262,6 @@ main {
         transform: translate(0);
     }
 }
-@keyframes title2-entrance {
-    0% {
-        opacity: 0;
-        transform: translateX(1000px);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
 .part2 {
     display: flex;
     justify-content: center;
@@ -295,7 +285,6 @@ main {
     z-index: 1;
     padding: 5rem 2rem 0 0;
     margin-left: 9rem;
-    animation: title2-entrance 1.5s;
 }
 .text2 h1 {
     color: #b2936d;
@@ -317,6 +306,9 @@ main {
 .action2 {
     text-align: center;
     margin-top: 5rem;
+}
+.email {
+    cursor: pointer;
 }
 .btn2 {
     cursor: pointer;
