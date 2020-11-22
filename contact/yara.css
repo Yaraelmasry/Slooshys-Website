@@ -200,7 +200,7 @@ main {
 }
 .container .box .Qaswar img
 {
-    max-width:100%;
+    max-width: 99.5%;
     transition: transform 2s;
 }
 .container .box:hover .Qaswar img
@@ -250,7 +250,7 @@ main {
 }
 .container .box .Marwan img
 {
-    max-width:140%;
+    max-width:150%;
     transition: transform 2s;
 }
 .container .box:hover .Marwan img
