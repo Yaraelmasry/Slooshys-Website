@@ -170,7 +170,7 @@ body{
 .getapp{
     padding-top: 0px;
     font-size: 150%;
-    font-weight: 100;
+    font-weight: 600;
 }
 .title1{
     margin-top: 5rem;
@@ -181,7 +181,7 @@ body{
 }
 .description {
     padding-top: 50px;
-    font-weight: 600;
+    font-weight: 100;
 }
 #app:link {
     text-decoration: none;
@@ -228,6 +228,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     display: flex;
+    margin-bottom: 5rem;
 }
 .bar{
     width: 70px;
