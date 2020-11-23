@@ -156,34 +156,32 @@ button::before{
 body{
     width: 100%;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
     
 }
 .div1{
-
     width: 100%;
     display: flex;
     justify-content: space-around;
-    
 }
 .email {
     cursor: pointer;
 }
 .getapp{
-    font-family: "lato";
     padding-top: 0px;
     font-size: 150%;
+    font-weight: 100;
 }
 .title1{
     margin-top: 5rem;
     text-align: center;
     padding-top: 10px;
     font-size: 300%;
-    font-family: "Aclonica";
     color: #0984e3;
 }
 .description {
     padding-top: 50px;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 #app:link {
     text-decoration: none;
@@ -302,6 +300,7 @@ main{
     
 }
 .footer{
+    font-family: Arial, Helvetica, sans-serif;
     width:80%;
     background-color:#212329;
     color:white;
