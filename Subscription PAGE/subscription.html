@@ -92,7 +92,7 @@
             Custom flavours
            
           </div>
-          <button class="cta">Payment method</button>
+          <button class="cta" onclick="regular()">Payment method</button>
         </div>
         <div class="column nice">
           <div class="Recommended">Recommended</div>
@@ -129,7 +129,7 @@
             <img src="x-square.svg">
             Custom flavours
           </div>
-          <button class="cta">Payment method</button>
+          <button class="cta" onclick = "premium()">Payment method</button>
         </div>
         <div class="column Luxe">
           
@@ -166,7 +166,7 @@
             <img src="iconmonstr-check-mark-13.svg">
             Custom flavours
           </div>
-          <button class="cta">Payment method</button>
+          <button class="cta" onclick="luxe()">Payment method</button>
           </div>
       </section>
       <div><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button></div>
@@ -180,7 +180,7 @@
       <div class="footer-heading footer-1">
           <h2>Quick Links</h2>
           <a href="../homepage/index.html">Main Page</a>
-          <a href="../products/products.html">Products</a>
+          <a href="../products/products.html">Options</a>
           <a href="../flavours/flavours.html">Flavours</a>
           <a href="../Subscription PAGE/subscription.html">Pricing</a> 
           <a href="../contact/about.html">Contact Us!</a>
@@ -199,7 +199,7 @@
       <div class="footer-email-form">
           <h2>Join Our Newsletter</h2>
           <input type="email" placeholder="Enter your email address" id="footer-email">
-          <input type="submit" value="Sign Up" id="footer-email-btn">
+          <input onclick="document.location.reload(true)" type="submit" value="Sign Up" id="footer-email-btn">
       </div>
   </div>
   <div class="copyright">
@@ -231,7 +231,17 @@
               function myFunction() {
                   alert("contact@slooshys.ca");
               }
+              function regular() {
+                alert("Thank you for choosing our Regular package!")
+              }
+              function premium() {
+                alert("Thank you for choosing our Premium package!")
+              }
+              function luxe() {
+                alert("Thank you for choosing our Luxe package!")
+              }
               </script>    
+              
         
         
         

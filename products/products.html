@@ -93,6 +93,11 @@
                     }, 1000);
                 });
             });       
+            $(function() {
+                $("#app").on("click",function(){
+                    window.location = "../homepage/index.html/#flav";
+                });
+            })
         </script>
 
             <div class="hero-image">
@@ -132,22 +137,22 @@
                     <div class="prottext">
                         <h1 class="title1">Protein Drink</h1>
                         <h2 class="description"> Our Slooshys Protein Drink !!! A mouth-watering fusion of BLUEBERRY + RASPBERRY! The ULTIMATE source of SHINY ENERGY! Channel your inner-master today and secure yours - If you can catch it!</h2>
-                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html">Slooshys App </a></h2>
+                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html#flav">Slooshys App </a></h2>
                     </div>
                     <div class="watertext" style="display:none;">
                         <h1 class="title1">Icelandic Water</h1>
                         <h2 class="description">It’s the fast and delicious way to get through your day. With only zero calories and zero sugar, you’ll feel good knowing that your boost won’t hurt your body. Go ahead and grab a few, so you’ll always have a jumpstart on hand.</h2>
-                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html">Slooshys App </a></h2> 
+                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html#flav">Slooshys App </a></h2> 
                     </div>
                     <div class="sodatext" style="display:none;">
                         <h1 class="title1">Hype Soda</h1>
                         <h2 class="description">It gets the people going! It gets the taste buds tingling!! It gets the mouths watering!!! Sometimes, all you need is our Slooshys "Hype Soda" to liven up the day - And that’s EXACTLY what we’ve got for ya!</h2> 
-                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html">Slooshys App </a></h2>              
+                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html#flav">Slooshys App </a></h2>              
                     </div>
                     <div class="engtext" style="display:none;">
                         <h1 class="title1">Energy Drink</h1>
                         <h2 class="description">Be kind to your body. Drink our delicious Slooshys Smart Cold Pressed Juice. It contains rich vitamins and nutrients and has no added sugar. A refreshing boost with those daily vitamins and minerals you need for a great day.</h2>
-                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html">Slooshys App </a></h2>               
+                        <h2 class="getapp">Stop on in or get these bottles delivered right to your doorstep through our <a id="app" href="../homepage/index.html#flav">Slooshys App </a></h2>               
                     </div>
                 </div>
             </div>
@@ -158,7 +163,7 @@
                 <div class="footer-heading footer-1">
                     <h2>Quick Links</h2>
                     <a href="../homepage/index.html">Main Page</a>
-                    <a href="../products/products.html">Products</a>
+                    <a href="../products/products.html">Options</a>
                     <a href="../flavours/flavours.html">Flavours</a>
                     <a href="../Subscription PAGE/subscription.html">Pricing</a> 
                     <a href="../contact/about.html">Contact Us!</a>
@@ -177,7 +182,7 @@
                 <div class="footer-email-form">
                     <h2>Join Our Newsletter</h2>
                     <input type="email" placeholder="Enter your email address" id="footer-email">
-                    <input type="submit" value="Sign Up" id="footer-email-btn">
+                    <input onclick="document.location.reload(true)" type="submit" value="Sign Up" id="footer-email-btn">
                 </div>
             </div>
             <div class="copyright">

@@ -142,7 +142,7 @@ main {
     margin-bottom: 2.5rem;
 }
 .text h1 {
-    color: black;
+    color: deeppink;
     text-align: center;
     font-size: 3rem;
     font-weight: 1000;
@@ -154,6 +154,7 @@ main {
     margin: 1.875rem 0 0 3%;
     text-align: center;
     line-height: 200%;
+    color: rgb(48, 47, 47);
 }
 .action {
     text-align: center;
@@ -287,18 +288,19 @@ main {
     margin-left: 9rem;
 }
 .text2 h1 {
-    color: #b2936d;
+    color:darkmagenta;
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     font-weight: 1000;
     margin-left: 5%;
 }
 .text2 p {
-    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
     margin: 1.875rem 0 0 3%;
     text-align: center;
     line-height: 200%;
-    color: black;
+    color: rgb(48, 47, 47);
 }
 .image2 {
     margin-left: 0rem;
@@ -311,6 +313,7 @@ main {
     cursor: pointer;
 }
 .btn2 {
+    font-family: 'lato',sans-serif;
     cursor: pointer;
     border: none;
     position: relative;
@@ -318,7 +321,7 @@ main {
     padding: 1rem 2.5rem;
     background: transparent;
     outline: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
 }
@@ -332,12 +335,12 @@ main {
     z-index: -2;
 }
 .btn2::before {
-    background-color: rgb(62, 151, 202);
+    background-color: rgb(51, 248, 255);
     top: -1rem;
     left: 0rem;
 }
 .btn2::after {
-    background-color: #e147e6;
+    background-color: #f72c2c;
     top: 1rem;
     left: 8rem;
 }
@@ -352,13 +355,14 @@ main {
     left: 8.75rem;
 }
 .flav {
+    color: rgb(48, 47, 47);
+    font-family: 'Poppins', sans-serif;
     display: flex;
     height: 40rem;
     background-color: white;
     width: 100%;
     border-bottom: 1px solid #212329;
     border-right: 1px rgb(54, 54, 192) solid;
-
 }
 .download-image {
     flex: 1;
@@ -370,6 +374,7 @@ main {
 .download-text {
     flex: 2;
     margin: 5rem 6rem 0 4rem;
+    font-size: 1.2rem;
 }
 .download-text h1 {
     font-size: 3rem;
@@ -380,6 +385,7 @@ main {
 }
 .available {
     margin-top: 7rem;
+    margin-left: 10rem;
 }
 .app-link {
     margin-top: 5rem;
@@ -388,6 +394,9 @@ main {
 }
 .app-link a {
     margin-left: 6rem;
+}
+.app-link img:hover {
+    transform: translateY(-7px);
 }
 *{
     padding:0;

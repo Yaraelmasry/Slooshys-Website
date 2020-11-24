@@ -137,7 +137,7 @@ nav {
     max-width: 280px;
     border-radius: 8px;
     background-color: white;
-    
+    transition: 0.3s all ease;
     padding: 2rem;
     
   }
@@ -152,7 +152,6 @@ nav {
     background-color:#c28285;
     color: black;
     padding: 2rem;
-    
   }
   
   
@@ -434,5 +433,5 @@ nav {
 }
 
 .color{
-  background-color: #83cef1;
+  background-color: azure;
 }
